@@ -29,21 +29,37 @@ app.configure('production', function(){
 
 // Routes
 
+/*
+require.paths.unshift(__dirname + '/public/scripts');
 
 app.get('/', function(res,res){
 	var shSyntaxHighlighter = require('shCore').SyntaxHighlighter;
 	var shJScript = require('shBrushJScript').Brush;
-	var code = '\
-		function helloWorld()\
-		{\
-			// this is great!\
-			for(var i = 0; i <= 1; i++)\
-				alert("yay");\
-		}\
+	var code = '\n\
+		function helloWorld()\n\
+		{\n\
+			// this is great!\n\
+			for(var i = 0; i <= 1; i++)\n\
+				alert("yay");\n\
+		}\n\
 		';
 	var brush = new shJScript();
 	res.render('index',{content:brush.getHtml(code)});
 })
+*/
+
+var code = '\
+function helloWorld()\n\
+{\n\
+	// this is great!\n\
+	for(var i = 0; i <= 1; i++)\n\
+		alert("yay");\n\
+}\n\
+	';
+
+app.get('/', function(req,res){
+	res.render('index.jade', {title: 'My Site', src: code});
+});
 
 app.listen(3000, function(){
   console.log("Express server listening on port %d in %s mode", app.address().port, app.settings.env);
