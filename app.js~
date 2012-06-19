@@ -147,6 +147,10 @@ function ssstat(sub, callback) {
 	ss('Status', sub, callback);
 }
 
+function sshis(sub, callback) {
+	ss('History', sub, callback);
+}
+
 function ss(cmd, sub, callback) {
 	process.env.ssdir = '\\\\src\\VSS\\CSS';
 	process.env.ssuser = 'ryu';
