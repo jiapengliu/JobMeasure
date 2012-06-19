@@ -31,8 +31,8 @@ app.configure('production', function(){
 
 // Routes
 
-app.get('/cs/:file', function(req, res) {
-	var file = req.params.file;
+app.get('/cs/*', function(req, res) {
+	var file = req.params;
 	readCs(file, function(p, cs) {
 		if (cs != null) {
 			res.render('showcs', {title: file, cs: cs});
@@ -74,7 +74,7 @@ app.get('/list', function(req, res) {
 });
 
 app.get('/list/*', function(req, res) {
-	ssdir(req.params[0], function(code, result) {
+	ssdir(req.params, function(code, result) {
 		if (code == 0) {
 			res.render('list', {
 				title: 'list', 
@@ -116,14 +116,16 @@ function splitResult(base, result) {
 }
 
 function readCs(file, callback) {
-	var p = csp(file);
-	path.exists(p, function(exists) {
-		if (exists) {
+	ssget(file, function(code, result) {
+		if (code == 0) {
+			var filename = path.basename(file);
+			var p = csp(filename);
 			fs.readFile(p, function(err, data) {
 				if (err) throw err;
 				callback(p, data);
 			});
-		} else {
+		}
+		else {
 			callback(null, null);
 		}
 	});
@@ -134,18 +136,24 @@ function diffCs(file1, file2, callback) {
 }
 
 function ssdir(sub, callback) {
-	process.env.ssdir = '\\\\src\\VSS\\CSS';
-	process.env.ssuser = 'ryu';
-	process.env.sspwd = 'ryu';
-	exe(ssp('ss.exe'), ['Dir', '$/' + sub], callback);
+	ss('Dir', sub, callback);
 }
 
 function ssget(sub, callback) {
+	ss('Get', sub, callback);
+}
+
+function ssstat(sub, callback) {
+	ss('Status', sub, callback);
+}
+
+function ss(cmd, sub, callback) {
 	process.env.ssdir = '\\\\src\\VSS\\CSS';
 	process.env.ssuser = 'ryu';
 	process.env.sspwd = 'ryu';
-	exe(ssp('ss.exe'), ['Get', '$/' + sub], callback);
+	exe(ssp('ss.exe'), [cmd, '$/' + sub], callback);
 }
+
 
 function exe(exefullpath, args, callback) {
 	console.log(csp());

@@ -136,18 +136,28 @@ function diffCs(file1, file2, callback) {
 }
 
 function ssdir(sub, callback) {
-	process.env.ssdir = '\\\\src\\VSS\\CSS';
-	process.env.ssuser = 'ryu';
-	process.env.sspwd = 'ryu';
-	exe(ssp('ss.exe'), ['Dir', '$/' + sub], callback);
+	ss('Dir', sub, callback);
 }
 
 function ssget(sub, callback) {
+	ss('Get', sub, callback);
+}
+
+function ssstat(sub, callback) {
+	ss('Status', sub, callback);
+}
+
+function sshis(sub, callback) {
+	ss('History', sub, callback);
+}
+
+function ss(cmd, sub, callback) {
 	process.env.ssdir = '\\\\src\\VSS\\CSS';
 	process.env.ssuser = 'ryu';
 	process.env.sspwd = 'ryu';
-	exe(ssp('ss.exe'), ['Get', '$/' + sub], callback);
+	exe(ssp('ss.exe'), [cmd, '$/' + sub], callback);
 }
+
 
 function exe(exefullpath, args, callback) {
 	console.log(csp());
