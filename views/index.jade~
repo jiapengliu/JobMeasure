@@ -2,12 +2,9 @@ h1 #{title}
 p Welcome to #{title}
 script(type='text/javascript')
     SyntaxHighlighter.all();
-script(type='syntaxhighlighter', class=#{type})
-    #{src}
-ul
-    li.first
-        a(href='#') foo
-    li
-        a(href='#') bar
-    li.last
-        a(href='#') baz
+.hleft.dbgborder
+    script(type='syntaxhighlighter', class='brush: csharp;')
+        #{left}
+.hright.dbgborder
+    script(type='syntaxhighlighter', class='brush: csharp;')
+        #{right}

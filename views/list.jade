@@ -1,0 +1,14 @@
+.yui3-skin-sam
+    #simple
+script
+    YUI().use('datatable', function(Y) {
+        var simple = new Y.DataTable({
+            columns: ['isfolder', 
+                { key: 'name', allowHTML: true, sortable:true}
+                ],
+            data   : !{JSON.stringify(data)},
+        });
+
+        simple.render("#simple");
+    });
+    

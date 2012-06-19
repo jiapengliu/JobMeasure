@@ -1,0 +1,8 @@
+h1 #{title}
+script(type='text/javascript')
+    SyntaxHighlighter.all();
+a(href=href)
+    #{full}
+script(type='syntaxhighlighter', class='brush: diff;')
+        #{diff}
+
