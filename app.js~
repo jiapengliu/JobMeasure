@@ -7,8 +7,9 @@ var express = require('express')
   , routes = require('./routes');
 
 var app = module.exports = express.createServer();
-var fs = require('fs');
-var path = require('path');
+var fs = require('fs'),
+	path = require('path'),
+	jq = require('jquery');
 
 // Configuration
 
@@ -87,6 +88,150 @@ app.get('/list/*', function(req, res) {
 	});
 });
 
+app.get('/history', function(req, res) {
+	res.redirect('/history/css');
+});
+
+app.get('/history/*', function(req, res) {
+	sshis(req.params, function(code, result) {
+/*		if (code == 0) {
+			res.render('list', {
+				title: 'list', 
+				columns: ["isfolder", "name"],
+				data: splitResult('/list/' + req.params, result)
+			});
+		} else {
+			res.end(code + '\r\n' + result);
+		}
+		*/
+		parseHistory(result, function(data) {
+			res.end(data);
+		});
+	});
+});
+
+app.listen(3000, function(){
+  console.log("Express server listening on port %d in %s mode", app.address().port, app.settings.env);
+});
+
+// lib
+
+function parseHistory(content, callback) {
+	var lines = content.split('\r\n'),
+		items = [],
+		item,
+		isfile = false,
+		isver = false,
+		row;
+
+	for(var i in lines) {
+		var line = lines[i];
+
+		var version = getBetween(line, '*****************', '*****************');
+		if (version) {
+			item = { filename: null, version: parseVersion(version), user: null, date: null };
+			items.push(item);
+			isfile = false;
+			isver = true;
+			row = 0;
+			continue;
+		}
+
+		var filename = getBetween(line, '*****', '*****');
+		if (filename) {
+			item = { filename: filename, version: 0, user: null, date: null };
+			items.push(item);
+			isfile = true;
+			isver = false;
+			row = 0;
+			continue;
+		}
+
+		if (isfile) 
+			switch(++row) {
+				case 1:
+					item.version = 	parseVersion(line);
+					break;
+				case 2:
+					parseUserAndDate(item, line);
+					break;
+			}
+
+		if (isver)
+			switch(++row) {
+				case 1:
+					parseUserAndDate(item, line);
+					break;
+				case 2:
+					item.filename = parseVersionFilename(line);
+					break;
+			}
+
+	}
+
+	console.log(items);
+	callback(content);
+}
+
+function parseVersionFilename(line) {
+	var end = line.lastIndexOf(' ');
+	if (end != -1)
+		return line.substring(0, end);
+
+	return null;
+}
+
+function parseUserAndDate(item, line) {
+	var values = getPartValues(line);
+	if (values && values.length == 3) {
+		item.user = values[0];
+		item.date = toDate(values[1], values[2]);
+	}
+}
+
+function getPartValues(line) {
+	var values = [],
+		parts = line.split(' ');
+	for(var i in parts) {
+		var part = parts[i];
+		if (part)
+			if (part.indexOf(':') != (part.length - 1))
+				values.push(part);
+	}
+	return values;
+}
+
+function toDate(date, time) {
+	var d = '20' + date,
+		t = time + ':00 GMT+0900',
+		str = d + ' ' + t;
+
+	return new Date(str);	
+}
+
+function parseVersion(version) {
+	var parts = version.split(' ');
+	if (parts && parts.length == 2) {
+		var ver = parseInt(parts[1]);
+		if (!isNaN(ver))
+			return ver;
+	}
+	return 0;
+}
+
+function getBetween(str, start, end) {
+	var b = str.indexOf(start);
+	if (b == -1) return null;
+
+	b += start.length;
+	if (b >= str.length) return null;
+
+	var e = str.indexOf(end, b);
+	if (e == -1) return null;
+
+	return jq.trim(str.substring(b, e));
+}
+
 function splitResult(base, result) {
 	var items = [];
 	var isfirst = true;
@@ -139,6 +284,7 @@ function ssdir(sub, callback) {
 	ss('Dir', sub, callback);
 }
 
+
 function ssget(sub, callback) {
 	ss('Get', sub, callback);
 }
@@ -159,7 +305,7 @@ function ss(cmd, sub, callback) {
 }
 
 
-function exe(exefullpath, args, callback) {
+function exe2(exefullpath, args, callback) {
 	console.log(csp());
 	var util = require('util'),
 		spawn = require('child_process').spawn,
@@ -177,6 +323,20 @@ function exe(exefullpath, args, callback) {
 	});
 }
 
+function exe(exefullpath, args, callback) {
+	var cmd = '"' + binp('utf8wrapper.exe') + '"';
+	cmd += ' "' + exefullpath + '"';
+	for(i = 0; i < args.length; i++) {
+		cmd += ' ' + args[i];
+	}
+	console.log('exe>' + cmd);
+
+	var forker = require('child_process');
+	forker.exec(cmd, { cwd: csp() }, function(err, outstr) {
+		callback(0, outstr);
+	});
+}
+
 function csp(filename) {
 	return path.join(__dirname, 'cs', filename);
 }
@@ -187,8 +347,5 @@ function ssp(filename) {
 	return path.join('c:\\Program Files\\Microsoft Visual SourceSafe', filename);
 }
 
-app.listen(3000, function(){
-  console.log("Express server listening on port %d in %s mode", app.address().port, app.settings.env);
-});
 
 

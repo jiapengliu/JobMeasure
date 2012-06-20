@@ -1,0 +1,2870 @@
+$/CSS/WebConsole.root/WebConsole/WebConsole_scaleout/LogSearch.Parts
+のリストを作成しています。...........
+
+*****  ResultModel.cs  *****
+バージョン 7
+ユーザー: 65764        日付: 12/06/11   時刻:  9:20
+チェックイン
+$/CSS/WebConsole.root/WebConsole/WebConsole_scaleout/LogSearch.Parts
+コメント: 
+市場トラブル120302-003(検索でデバイス接続を出したときに、シリアルID・プロダクト
+ID・ベンダーIDが出力されていない)の修正。
+
+*****************  バージョン 81  *****************
+ユーザー: Ryu          日付: 12/06/08   時刻: 15:34
+UnselectableListBox.cs を追加
+
+*****  EventModel.cs  *****
+バージョン 4
+ユーザー: Ryu          日付: 12/06/08   時刻: 15:34
+チェックイン
+$/CSS/WebConsole.root/WebConsole/WebConsole_scaleout/LogSearch.Parts
+コメント: 検索パネルの無効モードの修正。
+しかし、時間リストはまだ問題がある。
+
+*****  LogSearch.Parts.csproj  *****
+バージョン 29
+ユーザー: Ryu          日付: 12/06/08   時刻: 15:34
+チェックイン
+$/CSS/WebConsole.root/WebConsole/WebConsole_scaleout/LogSearch.Parts
+コメント: 検索パネルの無効モードの修正。
+しかし、時間リストはまだ問題がある。
+
+*****  SearchConditionView.xaml  *****
+バージョン 43
+ユーザー: Ryu          日付: 12/06/08   時刻: 15:34
+チェックイン
+$/CSS/WebConsole.root/WebConsole/WebConsole_scaleout/LogSearch.Parts
+コメント: 検索パネルの無効モードの修正。
+しかし、時間リストはまだ問題がある。
+
+*****  SearchConditionView.xaml.cs  *****
+バージョン 10
+ユーザー: Ryu          日付: 12/06/08   時刻: 15:34
+チェックイン
+$/CSS/WebConsole.root/WebConsole/WebConsole_scaleout/LogSearch.Parts
+コメント: 検索パネルの無効モードの修正。
+しかし、時間リストはまだ問題がある。
+
+*****  SearchConditionViewModel.cs  *****
+バージョン 57
+ユーザー: Ryu          日付: 12/06/08   時刻: 15:34
+チェックイン
+$/CSS/WebConsole.root/WebConsole/WebConsole_scaleout/LogSearch.Parts
+コメント: 検索パネルの無効モードの修正。
+しかし、時間リストはまだ問題がある。
+
+*****  SearchResultViewModel.cs  *****
+バージョン 45
+ユーザー: Ryu          日付: 12/06/05   時刻: 20:01
+チェックイン
+$/CSS/WebConsole.root/WebConsole/WebConsole_scaleout/LogSearch.Parts
+コメント: XMLを結果としてダウンロードするエラーを修正。
+POSTから戻る際に元結果がなくなる問題を修正。
+
+*****  SearchResultViewModel.cs  *****
+バージョン 44
+ユーザー: Ryu          日付: 12/06/05   時刻: 18:43
+チェックイン
+$/CSS/WebConsole.root/WebConsole/WebConsole_scaleout/LogSearch.Parts
+コメント: ZIPのURIエラーを修正。
+サーバー状態取得のエラーを修正
+
+*****  SearchResultView.xaml  *****
+バージョン 16
+ユーザー: Ryu          日付: 12/06/05   時刻: 13:01
+チェックイン
+$/CSS/WebConsole.root/WebConsole/WebConsole_scaleout/LogSearch.Parts
+コメント: 
+LogMgrIISchedulerに３つの結合フォルダを夜間処理で丸ごと削除する処理を追加
+オンライン検索に足りないサーバ情報の表示パネルを追加。
+
+
+
+*****  SearchResultViewModel.cs  *****
+バージョン 43
+ユーザー: Ryu          日付: 12/06/05   時刻: 13:01
+チェックイン
+$/CSS/WebConsole.root/WebConsole/WebConsole_scaleout/LogSearch.Parts
+コメント: 
+LogMgrIISchedulerに３つの結合フォルダを夜間処理で丸ごと削除する処理を追加
+オンライン検索に足りないサーバ情報の表示パネルを追加。
+
+
+
+*****  DownloadDialog.xaml  *****
+バージョン 3
+ユーザー: Ryu          日付: 12/06/04   時刻: 19:30
+チェックイン
+$/CSS/WebConsole.root/WebConsole/WebConsole_scaleout/LogSearch.Parts
+コメント: ファイルダウンロードの統一
+
+*****  DownloadDialog.xaml.cs  *****
+バージョン 3
+ユーザー: Ryu          日付: 12/06/04   時刻: 19:30
+チェックイン
+$/CSS/WebConsole.root/WebConsole/WebConsole_scaleout/LogSearch.Parts
+コメント: ファイルダウンロードの統一
+
+*****  SearchResultView.xaml.cs  *****
+バージョン 10
+ユーザー: Ryu          日付: 12/06/04   時刻: 19:30
+チェックイン
+$/CSS/WebConsole.root/WebConsole/WebConsole_scaleout/LogSearch.Parts
+コメント: ファイルダウンロードの統一
+
+*****  SearchResultViewModel.cs  *****
+バージョン 42
+ユーザー: Ryu          日付: 12/06/04   時刻: 19:30
+チェックイン
+$/CSS/WebConsole.root/WebConsole/WebConsole_scaleout/LogSearch.Parts
+コメント: ファイルダウンロードの統一
+
+*****  ParallelSearchWrappers.cs  *****
+バージョン 5
+ユーザー: Ryu          日付: 12/06/04   時刻: 18:34
+チェックイン
+$/CSS/WebConsole.root/WebConsole/WebConsole_scaleout/LogSearch.Parts
+コメント: ImportMany問題解決。
+クリックするたびに一時フォルダに結合ファイルを保存
+
+*****  SearchResultViewModel.cs  *****
+バージョン 41
+ユーザー: Ryu          日付: 12/05/31   時刻: 17:15
+チェックイン
+$/CSS/WebConsole.root/WebConsole/WebConsole_scaleout/LogSearch.Parts
+コメント: Onlineとバッチの結合を分ける
+
+*****  ParallelSearchWrappers.cs  *****
+バージョン 4
+ユーザー: Ryu          日付: 12/05/30   時刻: 18:30
+チェックイン
+$/CSS/WebConsole.root/WebConsole/WebConsole_scaleout/LogSearch.Parts
+コメント: BatchIDで条件ファイルを探す機能を追加。
+ファイルダウンロードでは元ファイル一覧の更新がまだ。
+
+*****  SearchConditionViewModel.cs  *****
+バージョン 56
+ユーザー: 65834        日付: 12/05/30   時刻: 13:15
+チェックイン
+$/CSS/WebConsole.root/WebConsole/WebConsole_scaleout/LogSearch.Parts
+コメント: 表示画面からクリップボードの項目を削除（SML統合管理票 No.2）
+
+*****  SearchResultViewModel.cs  *****
+バージョン 40
+ユーザー: Ryu          日付: 12/05/30   時刻: 10:51
+チェックイン
+$/CSS/WebConsole.root/WebConsole/WebConsole_scaleout/LogSearch.Parts
+コメント: ファイルダウンロードダイアログの追加
+
+*****  ParallelSearchWrappers.cs  *****
+バージョン 3
+ユーザー: Ryu          日付: 12/05/29   時刻: 19:35
+チェックイン
+$/CSS/WebConsole.root/WebConsole/WebConsole_scaleout/LogSearch.Parts
+コメント: ファイル日時パネル作成。
+Wrapper衝突問題は未解決。
+
+*****  ParallelSearchWrappers.cs  *****
+バージョン 2
+ユーザー: Ryu          日付: 12/05/29   時刻: 16:03
+チェックイン
+$/CSS/WebConsole.root/WebConsole/WebConsole_scaleout/LogSearch.Parts
+コメント: 編集についての説明を追加
+
+*****  LogSearch.Parts.csproj  *****
+バージョン 28
+ユーザー: Ryu          日付: 12/05/29   時刻: 15:55
+チェックイン
+$/CSS/WebConsole.root/WebConsole/WebConsole_scaleout/LogSearch.Parts
+コメント: ParallelSearchを共通LIBに移動
+
+*****  SearchResultViewModel.cs  *****
+バージョン 39
+ユーザー: Ryu          日付: 12/05/29   時刻: 15:55
+チェックイン
+$/CSS/WebConsole.root/WebConsole/WebConsole_scaleout/LogSearch.Parts
+コメント: ParallelSearchを共通LIBに移動
+
+*****  StrRes.Designer.cs  *****
+バージョン 29
+ユーザー: Ryu          日付: 12/05/29   時刻: 15:55
+チェックイン
+$/CSS/WebConsole.root/WebConsole/WebConsole_scaleout/LogSearch.Parts
+コメント: ParallelSearchを共通LIBに移動
+
+*****  StrRes.ja-JP.resx  *****
+バージョン 26
+ユーザー: Ryu          日付: 12/05/29   時刻: 15:55
+チェックイン
+$/CSS/WebConsole.root/WebConsole/WebConsole_scaleout/LogSearch.Parts
+コメント: ParallelSearchを共通LIBに移動
+
+*****  StrRes.resx  *****
+バージョン 29
+ユーザー: Ryu          日付: 12/05/29   時刻: 15:55
+チェックイン
+$/CSS/WebConsole.root/WebConsole/WebConsole_scaleout/LogSearch.Parts
+コメント: ParallelSearchを共通LIBに移動
+
+*****  StrRes.zh-CN.resx  *****
+バージョン 7
+ユーザー: Ryu          日付: 12/05/29   時刻: 15:55
+チェックイン
+$/CSS/WebConsole.root/WebConsole/WebConsole_scaleout/LogSearch.Parts
+コメント: ParallelSearchを共通LIBに移動
+
+*****************  バージョン 80  *****************
+ユーザー: Ryu          日付: 12/05/29   時刻: 15:55
+ParallelSearchWrappers.cs を追加
+
+*****  ParallelSearch.cs  *****
+バージョン 15
+ユーザー: Ryu          日付: 12/05/25   時刻: 16:52
+チェックイン
+$/CSS/WebConsole.root/WebConsole/WebConsole_scaleout/LogSearch.Parts
+コメント: Bid無用コード削除
+
+*****  SearchResultViewModel.cs  *****
+バージョン 38
+ユーザー: Ryu          日付: 12/05/25   時刻: 16:02
+チェックイン
+$/CSS/WebConsole.root/WebConsole/WebConsole_scaleout/LogSearch.Parts
+コメント: BatchID復元しない問題の解決
+
+*****  DownloadDialog.xaml  *****
+バージョン 2
+ユーザー: Ryu          日付: 12/05/25   時刻: 15:54
+チェックイン
+$/CSS/WebConsole.root/WebConsole/WebConsole_scaleout/LogSearch.Parts
+コメント: 検索完了。
+
+*****  DownloadDialog.xaml.cs  *****
+バージョン 2
+ユーザー: Ryu          日付: 12/05/25   時刻: 15:54
+チェックイン
+$/CSS/WebConsole.root/WebConsole/WebConsole_scaleout/LogSearch.Parts
+コメント: 検索完了。
+
+*****  ParallelSearch.cs  *****
+バージョン 14
+ユーザー: Ryu          日付: 12/05/25   時刻: 15:54
+チェックイン
+$/CSS/WebConsole.root/WebConsole/WebConsole_scaleout/LogSearch.Parts
+コメント: 検索完了。
+
+*****  SearchResultViewModel.cs  *****
+バージョン 37
+ユーザー: Ryu          日付: 12/05/25   時刻: 15:54
+チェックイン
+$/CSS/WebConsole.root/WebConsole/WebConsole_scaleout/LogSearch.Parts
+コメント: 検索完了。
+
+*****************  バージョン 79  *****************
+ユーザー: Ryu          日付: 12/05/24   時刻: 18:52
+DownloadDialog.xaml.cs を追加
+
+*****************  バージョン 78  *****************
+ユーザー: Ryu          日付: 12/05/24   時刻: 18:52
+DownloadDialog.xaml を追加
+
+*****  LogSearch.Parts.csproj  *****
+バージョン 27
+ユーザー: Ryu          日付: 12/05/24   時刻: 18:52
+チェックイン
+$/CSS/WebConsole.root/WebConsole/WebConsole_scaleout/LogSearch.Parts
+コメント: 複数検索結果一覧の作成
+
+*****  SearchResultView.xaml.cs  *****
+バージョン 9
+ユーザー: Ryu          日付: 12/05/24   時刻: 18:52
+チェックイン
+$/CSS/WebConsole.root/WebConsole/WebConsole_scaleout/LogSearch.Parts
+コメント: 複数検索結果一覧の作成
+
+*****  SearchResultViewModel.cs  *****
+バージョン 36
+ユーザー: Ryu          日付: 12/05/24   時刻: 18:52
+チェックイン
+$/CSS/WebConsole.root/WebConsole/WebConsole_scaleout/LogSearch.Parts
+コメント: 複数検索結果一覧の作成
+
+*****  ParallelSearch.cs  *****
+バージョン 13
+ユーザー: Ryu          日付: 12/05/24   時刻: 13:52
+チェックイン
+$/CSS/WebConsole.root/WebConsole/WebConsole_scaleout/LogSearch.Parts
+コメント: 結合された結果を2度と結合しない機能を追加
+
+*****  ParallelSearch.cs  *****
+バージョン 12
+ユーザー: Ryu          日付: 12/05/23   時刻: 19:56
+チェックイン
+$/CSS/WebConsole.root/WebConsole/WebConsole_scaleout/LogSearch.Parts
+コメント: csv結合完了。
+
+
+*****  ParallelSearch.cs  *****
+バージョン 11
+ユーザー: Ryu          日付: 12/05/22   時刻: 18:42
+チェックイン
+$/CSS/WebConsole.root/WebConsole/WebConsole_scaleout/LogSearch.Parts
+コメント: CSV結合、CSV名にサーバIPの追加が完了。
+しかし、サーバIP取得はまだ。
+
+*****  ParallelSearch.cs  *****
+バージョン 10
+ユーザー: Ryu          日付: 12/05/18   時刻: 19:29
+チェックイン
+$/CSS/WebConsole.root/WebConsole/WebConsole_scaleout/LogSearch.Parts
+コメント: ダウンロードまでの一連の処理ができた。
+しかし、CSV結合、ZIP名重複の問題はまだ。
+
+*****  SearchResultViewModel.cs  *****
+バージョン 35
+ユーザー: Ryu          日付: 12/05/18   時刻: 19:29
+チェックイン
+$/CSS/WebConsole.root/WebConsole/WebConsole_scaleout/LogSearch.Parts
+コメント: ダウンロードまでの一連の処理ができた。
+しかし、CSV結合、ZIP名重複の問題はまだ。
+
+*****  ParallelSearch.cs  *****
+バージョン 9
+ユーザー: Ryu          日付: 12/05/17   時刻: 19:01
+チェックイン
+$/CSS/WebConsole.root/WebConsole/WebConsole_scaleout/LogSearch.Parts
+コメント: 複数ファイルダウンロードの画面以外は完了。
+
+*****  SearchResultViewModel.cs  *****
+バージョン 34
+ユーザー: Ryu          日付: 12/05/17   時刻: 19:01
+チェックイン
+$/CSS/WebConsole.root/WebConsole/WebConsole_scaleout/LogSearch.Parts
+コメント: 複数ファイルダウンロードの画面以外は完了。
+
+*****  ParallelSearch.cs  *****
+バージョン 8
+ユーザー: Ryu          日付: 12/05/16   時刻: 18:35
+チェックイン
+$/CSS/WebConsole.root/WebConsole/WebConsole_scaleout/LogSearch.Parts
+コメント: GetPostData完成
+
+*****  SearchResultViewModel.cs  *****
+バージョン 33
+ユーザー: Ryu          日付: 12/05/16   時刻: 18:35
+チェックイン
+$/CSS/WebConsole.root/WebConsole/WebConsole_scaleout/LogSearch.Parts
+コメント: GetPostData完成
+
+*****  ParallelSearch.cs  *****
+バージョン 7
+ユーザー: Ryu          日付: 12/05/14   時刻: 19:06
+チェックイン
+$/CSS/WebConsole.root/WebConsole/WebConsole_scaleout/LogSearch.Parts
+コメント: ParallelSearch簡潔化完了。
+PostData,CSVダウンロードはまだ。
+
+*****  ParallelSearch.cs  *****
+バージョン 6
+ユーザー: Ryu          日付: 12/05/11   時刻: 18:23
+チェックイン
+$/CSS/WebConsole.root/WebConsole/WebConsole_scaleout/LogSearch.Parts
+コメント: ParallelTestのサーバとクライアントの切り替えを作成
+
+*****  ParallelSearch.cs  *****
+バージョン 5
+ユーザー: Ryu          日付: 12/05/10   時刻: 15:02
+チェックイン
+$/CSS/WebConsole.root/WebConsole/WebConsole_scaleout/LogSearch.Parts
+コメント: SearchProp取得と、XMLダウンロードのUnitTestまで完了
+
+*****  SearchConditionViewModel.cs  *****
+バージョン 55
+ユーザー: Ryu          日付: 12/05/10   時刻: 15:02
+チェックイン
+$/CSS/WebConsole.root/WebConsole/WebConsole_scaleout/LogSearch.Parts
+コメント: SearchProp取得と、XMLダウンロードのUnitTestまで完了
+
+*****  SearchResultViewModel.cs  *****
+バージョン 32
+ユーザー: Ryu          日付: 12/05/10   時刻: 15:02
+チェックイン
+$/CSS/WebConsole.root/WebConsole/WebConsole_scaleout/LogSearch.Parts
+コメント: SearchProp取得と、XMLダウンロードのUnitTestまで完了
+
+*****  SearchResultViewModel.cs  *****
+バージョン 31
+ユーザー: Ryu          日付: 12/04/27   時刻: 18:05
+チェックイン
+$/CSS/WebConsole.root/WebConsole/WebConsole_scaleout/LogSearch.Parts
+コメント: XMLダウンロード作成中
+
+*****  ParallelSearch.cs  *****
+バージョン 4
+ユーザー: Ryu          日付: 12/04/27   時刻: 18:05
+チェックイン
+$/CSS/WebConsole.root/WebConsole/WebConsole_scaleout/LogSearch.Parts
+コメント: XMLダウンロード作成中
+
+*****  SearchConditionViewModel.cs  *****
+バージョン 54
+ユーザー: Ryu          日付: 12/04/27   時刻: 18:05
+チェックイン
+$/CSS/WebConsole.root/WebConsole/WebConsole_scaleout/LogSearch.Parts
+コメント: XMLダウンロード作成中
+
+*****  ParallelSearch.cs  *****
+バージョン 3
+ユーザー: Ryu          日付: 12/04/18   時刻: 10:22
+チェックイン
+$/CSS/WebConsole.root/WebConsole/WebConsole_scaleout/LogSearch.Parts
+コメント: 検索バッチ、統一IDと条件ファイル名で登録できる。
+
+*****  SearchResultViewModel.cs  *****
+バージョン 30
+ユーザー: Ryu          日付: 12/04/18   時刻: 10:22
+チェックイン
+$/CSS/WebConsole.root/WebConsole/WebConsole_scaleout/LogSearch.Parts
+コメント: 検索バッチ、統一IDと条件ファイル名で登録できる。
+
+*****  ParallelSearch.cs  *****
+バージョン 2
+ユーザー: Ryu          日付: 12/04/17   時刻: 14:59
+チェックイン
+$/CSS/WebConsole.root/WebConsole/WebConsole_scaleout/LogSearch.Parts
+コメント: Searchの共通ID完成。
+
+*****  SearchResultViewModel.cs  *****
+バージョン 29
+ユーザー: Ryu          日付: 12/04/17   時刻: 14:59
+チェックイン
+$/CSS/WebConsole.root/WebConsole/WebConsole_scaleout/LogSearch.Parts
+コメント: Searchの共通ID完成。
+
+*****************  バージョン 77  *****************
+ユーザー: Ryu          日付: 12/04/17   時刻: 14:03
+ParallelSearch.cs を追加
+
+*****  LogSearch.Parts.csproj  *****
+バージョン 26
+ユーザー: Ryu          日付: 12/04/17   時刻: 14:03
+チェックイン
+$/CSS/WebConsole.root/WebConsole/WebConsole_scaleout/LogSearch.Parts
+コメント: 共通IDモジュールを作成。
+
+*****  SearchConditionViewModel.cs  *****
+バージョン 53
+ユーザー: Ryu          日付: 12/04/17   時刻: 14:03
+チェックイン
+$/CSS/WebConsole.root/WebConsole/WebConsole_scaleout/LogSearch.Parts
+コメント: 共通IDモジュールを作成。
+
+*****  SearchResultViewModel.cs  *****
+バージョン 28
+ユーザー: Ryu          日付: 12/04/17   時刻: 14:03
+チェックイン
+$/CSS/WebConsole.root/WebConsole/WebConsole_scaleout/LogSearch.Parts
+コメント: 共通IDモジュールを作成。
+
+*****  SearchConditionViewModel.cs  *****
+バージョン 52
+ユーザー: Ryu          日付: 12/04/13   時刻: 18:21
+チェックイン
+$/CSS/WebConsole.root/WebConsole/WebConsole_scaleout/LogSearch.Parts
+コメント: GetServerStatusから存在・存在しないサーバ情報を全部返すように。
+サーバー一致はIPだけで判断するように。
+
+*****  SearchConditionViewModel.cs  *****
+バージョン 51
+ユーザー: Ryu          日付: 12/04/13   時刻: 17:37
+チェックイン
+$/CSS/WebConsole.root/WebConsole/WebConsole_scaleout/LogSearch.Parts
+コメント: ParallelContext追加。
+
+*****  SearchConditionViewModel.cs  *****
+バージョン 50
+ユーザー: Ryu          日付: 12/04/13   時刻: 10:28
+チェックイン
+$/CSS/WebConsole.root/WebConsole/WebConsole_scaleout/LogSearch.Parts
+コメント: SWSクライアント作成。
+
+*****************  バージョン 76  *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:26
+$Properties を追加
+
+*****************  バージョン 75  *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:26
+TemplateViewModel.cs を分岐
+
+*****************  バージョン 74  *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:26
+$/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts/TemplateViewM
+odel.cs - 共有
+
+*****************  バージョン 73  *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:26
+TemplateView.xaml.cs を分岐
+
+*****************  バージョン 72  *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:26
+$/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts/TemplateView.
+xaml.cs - 共有
+
+*****************  バージョン 71  *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:26
+TemplateView.xaml を分岐
+
+*****************  バージョン 70  *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:26
+$/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts/TemplateView.
+xaml - 共有
+
+*****************  バージョン 69  *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:26
+TemplateContext.cs を分岐
+
+*****************  バージョン 68  *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:26
+$/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts/TemplateConte
+xt.cs - 共有
+
+*****************  バージョン 67  *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:26
+StrWrap.cs を分岐
+
+*****************  バージョン 66  *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:26
+$/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts/StrWrap.cs -
+共有
+
+*****************  バージョン 65  *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:26
+StrRes.zh-CN.resx を分岐
+
+*****************  バージョン 64  *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:26
+$/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts/StrRes.zh-CN.
+resx - 共有
+
+*****************  バージョン 63  *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:26
+StrRes.resx を分岐
+
+*****************  バージョン 62  *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:26
+$/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts/StrRes.resx -
+共有
+
+*****************  バージョン 61  *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:26
+StrRes.ja-JP.resx を分岐
+
+*****************  バージョン 60  *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:26
+$/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts/StrRes.ja-JP.
+resx - 共有
+
+*****  StrRes.ja-JP.resx  *****
+バージョン 25
+ユーザー: 65418        日付: 12/03/22   時刻: 11:26
+分岐
+コメント: 
+
+*****  StrRes.resx  *****
+バージョン 28
+ユーザー: 65418        日付: 12/03/22   時刻: 11:26
+分岐
+コメント: 
+
+*****  StrRes.zh-CN.resx  *****
+バージョン 6
+ユーザー: 65418        日付: 12/03/22   時刻: 11:26
+分岐
+コメント: 
+
+*****  StrWrap.cs  *****
+バージョン 2
+ユーザー: 65418        日付: 12/03/22   時刻: 11:26
+分岐
+コメント: 
+
+*****  TemplateContext.cs  *****
+バージョン 2
+ユーザー: 65418        日付: 12/03/22   時刻: 11:26
+分岐
+コメント: 
+
+*****  TemplateView.xaml  *****
+バージョン 4
+ユーザー: 65418        日付: 12/03/22   時刻: 11:26
+分岐
+コメント: 
+
+*****  TemplateView.xaml.cs  *****
+バージョン 2
+ユーザー: 65418        日付: 12/03/22   時刻: 11:26
+分岐
+コメント: 
+
+*****  TemplateViewModel.cs  *****
+バージョン 5
+ユーザー: 65418        日付: 12/03/22   時刻: 11:26
+分岐
+コメント: 
+
+*****************  バージョン 59  *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:26
+StrRes.Designer.cs を分岐
+
+*****************  バージョン 58  *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:26
+$/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts/StrRes.Design
+er.cs - 共有
+
+*****************  バージョン 57  *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:26
+SearchResultViewModel.cs を分岐
+
+*****************  バージョン 56  *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:26
+$/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts/SearchResultV
+iewModel.cs - 共有
+
+*****************  バージョン 55  *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:26
+SearchResultView.xaml.cs を分岐
+
+*****************  バージョン 54  *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:26
+$/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts/SearchResultV
+iew.xaml.cs - 共有
+
+*****************  バージョン 53  *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:26
+SearchResultView.xaml を分岐
+
+*****************  バージョン 52  *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:26
+$/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts/SearchResultV
+iew.xaml - 共有
+
+*****************  バージョン 51  *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:26
+SearchModule.cs を分岐
+
+*****************  バージョン 50  *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:26
+$/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts/SearchModule.
+cs - 共有
+
+*****************  バージョン 49  *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:26
+SearchController.cs を分岐
+
+*****************  バージョン 48  *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:26
+$/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts/SearchControl
+ler.cs - 共有
+
+*****************  バージョン 47  *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:26
+SearchContext.cs を分岐
+
+*****************  バージョン 46  *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:26
+$/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts/SearchContext
+.cs - 共有
+
+*****  SearchContext.cs  *****
+バージョン 2
+ユーザー: 65418        日付: 12/03/22   時刻: 11:26
+分岐
+コメント: 
+
+*****  SearchController.cs  *****
+バージョン 7
+ユーザー: 65418        日付: 12/03/22   時刻: 11:26
+分岐
+コメント: 
+
+*****  SearchModule.cs  *****
+バージョン 7
+ユーザー: 65418        日付: 12/03/22   時刻: 11:26
+分岐
+コメント: 
+
+*****  SearchResultView.xaml  *****
+バージョン 15
+ユーザー: 65418        日付: 12/03/22   時刻: 11:26
+分岐
+コメント: 
+
+*****  SearchResultView.xaml.cs  *****
+バージョン 8
+ユーザー: 65418        日付: 12/03/22   時刻: 11:26
+分岐
+コメント: 
+
+*****  SearchResultViewModel.cs  *****
+バージョン 27
+ユーザー: 65418        日付: 12/03/22   時刻: 11:26
+分岐
+コメント: 
+
+*****  StrRes.Designer.cs  *****
+バージョン 28
+ユーザー: 65418        日付: 12/03/22   時刻: 11:26
+分岐
+コメント: 
+
+*****************  バージョン 45  *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:25
+SearchConditionViewModel.cs を分岐
+
+*****************  バージョン 44  *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:25
+$/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts/SearchConditi
+onViewModel.cs - 共有
+
+*****************  バージョン 43  *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:25
+SearchConditionView.xaml.cs を分岐
+
+*****************  バージョン 42  *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:25
+$/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts/SearchConditi
+onView.xaml.cs - 共有
+
+*****************  バージョン 41  *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:25
+SearchConditionView.xaml を分岐
+
+*****************  バージョン 40  *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:25
+$/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts/SearchConditi
+onView.xaml - 共有
+
+*****************  バージョン 39  *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:25
+RunSearchAsBatchEvent.cs を分岐
+
+*****************  バージョン 38  *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:25
+$/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts/RunSearchAsBa
+tchEvent.cs - 共有
+
+*****************  バージョン 37  *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:25
+ResultModel.cs を分岐
+
+*****************  バージョン 36  *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:25
+$/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts/ResultModel.c
+s - 共有
+
+*****  ResultModel.cs  *****
+バージョン 6
+ユーザー: 65418        日付: 12/03/22   時刻: 11:25
+分岐
+コメント: 
+
+*****  RunSearchAsBatchEvent.cs  *****
+バージョン 2
+ユーザー: 65418        日付: 12/03/22   時刻: 11:25
+分岐
+コメント: 
+
+*****  SearchConditionView.xaml  *****
+バージョン 42
+ユーザー: 65418        日付: 12/03/22   時刻: 11:25
+分岐
+コメント: 
+
+*****  SearchConditionView.xaml.cs  *****
+バージョン 9
+ユーザー: 65418        日付: 12/03/22   時刻: 11:25
+分岐
+コメント: 
+
+*****  SearchConditionViewModel.cs  *****
+バージョン 49
+ユーザー: 65418        日付: 12/03/22   時刻: 11:25
+分岐
+コメント: 
+
+*****************  バージョン 35  *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:25
+PostDataConverter.cs を分岐
+
+*****************  バージョン 34  *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:25
+$/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts/PostDataConve
+rter.cs - 共有
+
+*****************  バージョン 33  *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:25
+NotEnumVisibConverter.cs を分岐
+
+*****************  バージョン 32  *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:25
+$/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts/NotEnumVisibC
+onverter.cs - 共有
+
+*****************  バージョン 31  *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:25
+NotCountVisibConverter.cs を分岐
+
+*****************  バージョン 30  *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:25
+$/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts/NotCountVisib
+Converter.cs - 共有
+
+*****************  バージョン 29  *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:25
+NotBoolVisibConverter.cs を分岐
+
+*****************  バージョン 28  *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:25
+$/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts/NotBoolVisibC
+onverter.cs - 共有
+
+*****************  バージョン 27  *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:25
+NotBoolConverter.cs を分岐
+
+*****************  バージョン 26  *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:25
+$/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts/NotBoolConver
+ter.cs - 共有
+
+*****************  バージョン 25  *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:25
+NoEditMask.xaml.cs を分岐
+
+*****************  バージョン 24  *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:25
+$/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts/NoEditMask.xa
+ml.cs - 共有
+
+*****************  バージョン 23  *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:25
+NoEditMask.xaml を分岐
+
+*****************  バージョン 22  *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:25
+$/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts/NoEditMask.xa
+ml - 共有
+
+*****************  バージョン 21  *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:25
+LogSearch.Parts.csproj.vspscc を分岐
+
+*****************  バージョン 20  *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:25
+$/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts/LogSearch.Par
+ts.csproj.vspscc - 共有
+
+*****************  バージョン 19  *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:25
+LogSearch.Parts.csproj を分岐
+
+*****************  バージョン 18  *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:25
+$/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts/LogSearch.Par
+ts.csproj - 共有
+
+*****************  バージョン 17  *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:25
+EventModel.cs を分岐
+
+*****************  バージョン 16  *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:25
+$/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts/EventModel.cs
+- 共有
+
+*****************  バージョン 15  *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:25
+EnumVisibConverter.cs を分岐
+
+*****************  バージョン 14  *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:25
+$/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts/EnumVisibConv
+erter.cs - 共有
+
+*****************  バージョン 13  *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:25
+EnumBoolConverter.cs を分岐
+
+*****************  バージョン 12  *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:25
+$/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts/EnumBoolConve
+rter.cs - 共有
+
+*****************  バージョン 11  *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:25
+DetailsPager.cs を分岐
+
+*****************  バージョン 10  *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:25
+$/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts/DetailsPager.
+cs - 共有
+
+*****************  バージョン 9   *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:25
+CountVisibConverter.cs を分岐
+
+*****  CountVisibConverter.cs  *****
+バージョン 2
+ユーザー: 65418        日付: 12/03/22   時刻: 11:25
+分岐
+コメント: 
+
+*****  DetailsPager.cs  *****
+バージョン 2
+ユーザー: 65418        日付: 12/03/22   時刻: 11:25
+分岐
+コメント: 
+
+*****  EnumBoolConverter.cs  *****
+バージョン 5
+ユーザー: 65418        日付: 12/03/22   時刻: 11:25
+分岐
+コメント: 
+
+*****  EnumVisibConverter.cs  *****
+バージョン 3
+ユーザー: 65418        日付: 12/03/22   時刻: 11:25
+分岐
+コメント: 
+
+*****  EventModel.cs  *****
+バージョン 3
+ユーザー: 65418        日付: 12/03/22   時刻: 11:25
+分岐
+コメント: 
+
+*****  LogSearch.Parts.csproj  *****
+バージョン 25
+ユーザー: 65418        日付: 12/03/22   時刻: 11:25
+分岐
+コメント: 
+
+*****  LogSearch.Parts.csproj.vspscc  *****
+バージョン 2
+ユーザー: 65418        日付: 12/03/22   時刻: 11:25
+分岐
+コメント: 
+
+*****  NoEditMask.xaml  *****
+バージョン 3
+ユーザー: 65418        日付: 12/03/22   時刻: 11:25
+分岐
+コメント: 
+
+*****  NoEditMask.xaml.cs  *****
+バージョン 2
+ユーザー: 65418        日付: 12/03/22   時刻: 11:25
+分岐
+コメント: 
+
+*****  NotBoolConverter.cs  *****
+バージョン 2
+ユーザー: 65418        日付: 12/03/22   時刻: 11:25
+分岐
+コメント: 
+
+*****  NotBoolVisibConverter.cs  *****
+バージョン 2
+ユーザー: 65418        日付: 12/03/22   時刻: 11:25
+分岐
+コメント: 
+
+*****  NotCountVisibConverter.cs  *****
+バージョン 2
+ユーザー: 65418        日付: 12/03/22   時刻: 11:25
+分岐
+コメント: 
+
+*****  NotEnumVisibConverter.cs  *****
+バージョン 2
+ユーザー: 65418        日付: 12/03/22   時刻: 11:25
+分岐
+コメント: 
+
+*****  PostDataConverter.cs  *****
+バージョン 2
+ユーザー: 65418        日付: 12/03/22   時刻: 11:25
+分岐
+コメント: 
+
+*****************  バージョン 8   *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:25
+$/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts/CountVisibCon
+verter.cs - 共有
+
+*****************  バージョン 7   *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:25
+BoolVisibConverter.cs を分岐
+
+*****************  バージョン 6   *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:25
+$/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts/BoolVisibConv
+erter.cs - 共有
+
+*****************  バージョン 5   *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:25
+BeginSearchEvent2.cs を分岐
+
+*****************  バージョン 4   *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:25
+$/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts/BeginSearchEv
+ent2.cs - 共有
+
+*****************  バージョン 3   *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:25
+BeginSearchEvent.cs を分岐
+
+*****************  バージョン 2   *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:25
+$/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts/BeginSearchEv
+ent.cs - 共有
+
+*****************  バージョン 1   *****************
+ユーザー: 65418        日付: 12/03/22   時刻: 11:25
+作成
+コメント: 
+
+*****  BeginSearchEvent.cs  *****
+バージョン 2
+ユーザー: 65418        日付: 12/03/22   時刻: 11:25
+分岐
+コメント: 
+
+*****  BeginSearchEvent2.cs  *****
+バージョン 3
+ユーザー: 65418        日付: 12/03/22   時刻: 11:25
+分岐
+コメント: 
+
+*****  BoolVisibConverter.cs  *****
+バージョン 2
+ユーザー: 65418        日付: 12/03/22   時刻: 11:25
+分岐
+コメント: 
+
+*****  SearchConditionViewModel.cs  *****
+バージョン 48
+ユーザー: 66160        日付: 11/11/23   時刻: 15:22
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: ミス修正　名前　ツリー
+
+*****  StrRes.Designer.cs  *****
+バージョン 27
+ユーザー: 66160        日付: 11/11/23   時刻: 15:22
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: ミス修正　名前　ツリー
+
+*****  StrRes.ja-JP.resx  *****
+バージョン 24
+ユーザー: 66160        日付: 11/11/23   時刻: 15:22
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: ミス修正　名前　ツリー
+
+*****  StrRes.resx  *****
+バージョン 27
+ユーザー: 66160        日付: 11/11/23   時刻: 15:22
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: ミス修正　名前　ツリー
+
+*****  StrRes.zh-CN.resx  *****
+バージョン 5
+ユーザー: 66160        日付: 11/11/23   時刻: 15:22
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: ミス修正　名前　ツリー
+
+*****  StrRes.zh-CN.resx  *****
+バージョン 4
+ユーザー: Ryu          日付: 11/11/01   時刻: 13:19
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: LogBatch多言語（プロジェクトの設定だけ。リソースがない。）
+システム容量チェックの中国語
+
+*****  StrRes.ja-JP.resx  *****
+バージョン 23
+ユーザー: 65565        日付: 11/11/01   時刻: 13:07
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 
+システムの容量不足と途中で打ち切る処理の日本語と英語対応。アカウント取得の処理
+を修正。
+
+*****  StrRes.resx  *****
+バージョン 26
+ユーザー: 65565        日付: 11/11/01   時刻: 13:07
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 
+システムの容量不足と途中で打ち切る処理の日本語と英語対応。アカウント取得の処理
+を修正。
+
+*****  StrRes.zh-CN.resx  *****
+バージョン 3
+ユーザー: 65565        日付: 11/11/01   時刻: 13:07
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 
+システムの容量不足と途中で打ち切る処理の日本語と英語対応。アカウント取得の処理
+を修正。
+
+*****  SearchResultViewModel.cs  *****
+バージョン 26
+ユーザー: 65565        日付: 11/11/01   時刻: 13:07
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 
+システムの容量不足と途中で打ち切る処理の日本語と英語対応。アカウント取得の処理
+を修正。
+
+*****  StrRes.Designer.cs  *****
+バージョン 26
+ユーザー: 65565        日付: 11/11/01   時刻: 13:07
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 
+システムの容量不足と途中で打ち切る処理の日本語と英語対応。アカウント取得の処理
+を修正。
+
+*****  SearchResultViewModel.cs  *****
+バージョン 25
+ユーザー: 65565        日付: 11/10/28   時刻: 19:16
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 全件取得ではないとき表示するメーッセージの追加。
+
+*****  SearchResultViewModel.cs  *****
+バージョン 24
+ユーザー: Ryu          日付: 11/10/25   時刻: 17:59
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: オンライン検索最後1行が無視されてしまうバグの修正。
+
+*****  ResultModel.cs  *****
+バージョン 5
+ユーザー: Ryu          日付: 11/10/25   時刻: 15:42
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 検索結果にCategoryNameがないのでオンライン結果で列のずれが生じる。
+SMLLogCoreに従って作り直しをした。
+
+*****  SearchConditionView.xaml  *****
+バージョン 41
+ユーザー: Ryu          日付: 11/10/24   時刻: 14:25
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 先週・先月の時間モードがコピーできないバグ。
+Log*JsonのPeriodModeをTimeModeに変更。SearchProperty・TotalingPropertyに統一。
+
+*****  SearchConditionViewModel.cs  *****
+バージョン 47
+ユーザー: Ryu          日付: 11/10/24   時刻: 14:25
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 先週・先月の時間モードがコピーできないバグ。
+Log*JsonのPeriodModeをTimeModeに変更。SearchProperty・TotalingPropertyに統一。
+
+*****  SearchConditionViewModel.cs  *****
+バージョン 46
+ユーザー: Ryu          日付: 11/10/20   時刻: 17:20
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: Common, LogSearch, LogTotal,
+LogBatchに対して多言語化チェック、DllのLocalCopyチェック。
+
+*****  StrRes.Designer.cs  *****
+バージョン 25
+ユーザー: Ryu          日付: 11/10/20   時刻: 17:20
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: Common, LogSearch, LogTotal,
+LogBatchに対して多言語化チェック、DllのLocalCopyチェック。
+
+*****  StrRes.ja-JP.resx  *****
+バージョン 22
+ユーザー: Ryu          日付: 11/10/20   時刻: 17:20
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: Common, LogSearch, LogTotal,
+LogBatchに対して多言語化チェック、DllのLocalCopyチェック。
+
+*****  StrRes.resx  *****
+バージョン 25
+ユーザー: Ryu          日付: 11/10/20   時刻: 17:20
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: Common, LogSearch, LogTotal,
+LogBatchに対して多言語化チェック、DllのLocalCopyチェック。
+
+*****  StrRes.zh-CN.resx  *****
+バージョン 2
+ユーザー: Ryu          日付: 11/10/20   時刻: 17:20
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: Common, LogSearch, LogTotal,
+LogBatchに対して多言語化チェック、DllのLocalCopyチェック。
+
+*****  LogSearch.Parts.csproj  *****
+バージョン 24
+ユーザー: Ryu          日付: 11/10/20   時刻: 17:20
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: Common, LogSearch, LogTotal,
+LogBatchに対して多言語化チェック、DllのLocalCopyチェック。
+
+*****  SearchConditionViewModel.cs  *****
+バージョン 45
+ユーザー: 66160        日付: 11/10/19   時刻: 11:24
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: ファイル
+
+*****  StrRes.ja-JP.resx  *****
+バージョン 21
+ユーザー: 66160        日付: 11/10/14   時刻: 17:22
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 多言語修正
+
+*****  StrRes.resx  *****
+バージョン 24
+ユーザー: 66160        日付: 11/10/14   時刻: 17:22
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 多言語修正
+
+*****  SearchConditionView.xaml  *****
+バージョン 40
+ユーザー: 66160        日付: 11/10/14   時刻: 17:22
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 多言語修正
+
+*****  SearchConditionViewModel.cs  *****
+バージョン 44
+ユーザー: 66160        日付: 11/10/14   時刻: 17:22
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 多言語修正
+
+*****  StrRes.Designer.cs  *****
+バージョン 24
+ユーザー: 66160        日付: 11/10/14   時刻: 17:22
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 多言語修正
+
+*****  SearchConditionView.xaml  *****
+バージョン 39
+ユーザー: 65565        日付: 11/10/13   時刻: 19:27
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 集計条件のラジオボタンのDisableを作成。
+
+*****  SearchConditionViewModel.cs  *****
+バージョン 43
+ユーザー: 65565        日付: 11/10/13   時刻: 19:27
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 集計条件のラジオボタンのDisableを作成。
+
+*****  StrRes.Designer.cs  *****
+バージョン 23
+ユーザー: 66160        日付: 11/10/12   時刻: 18:55
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 多言語　clipboard disconnect
+
+*****  StrRes.resx  *****
+バージョン 23
+ユーザー: 66160        日付: 11/10/12   時刻: 18:55
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 多言語　clipboard disconnect
+
+*****  SearchConditionViewModel.cs  *****
+バージョン 42
+ユーザー: 66160        日付: 11/10/12   時刻: 18:04
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 多言語ツリー
+
+*****  StrRes.Designer.cs  *****
+バージョン 22
+ユーザー: 66160        日付: 11/10/12   時刻: 18:04
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 多言語ツリー
+
+*****  StrRes.ja-JP.resx  *****
+バージョン 20
+ユーザー: 66160        日付: 11/10/12   時刻: 18:04
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 多言語ツリー
+
+*****  StrRes.resx  *****
+バージョン 22
+ユーザー: 66160        日付: 11/10/12   時刻: 18:04
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 多言語ツリー
+
+*****  SearchConditionViewModel.cs  *****
+バージョン 41
+ユーザー: 65565        日付: 11/10/12   時刻: 11:32
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: リムーバルをリムーバブルに修正。
+
+*****  LogSearch.Parts.csproj  *****
+バージョン 23
+ユーザー: Ryu          日付: 11/10/08   時刻: 19:57
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: バッチ名自動追加
+漏れの翻訳
+WebConsole.Webへの参照
+
+*****  SearchConditionViewModel.cs  *****
+バージョン 40
+ユーザー: Ryu          日付: 11/10/08   時刻: 19:57
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: バッチ名自動追加
+漏れの翻訳
+WebConsole.Webへの参照
+
+*****  StrRes.ja-JP.resx  *****
+バージョン 19
+ユーザー: Ryu          日付: 11/10/08   時刻: 19:57
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: バッチ名自動追加
+漏れの翻訳
+WebConsole.Webへの参照
+
+*****  NoEditMask.xaml  *****
+バージョン 2
+ユーザー: Ryu          日付: 11/10/08   時刻: 18:56
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: BatchName　2000文字改行
+集計・Batch　Numeric例外
+集計・検索文字切替
+集計残りの多言語化
+集計テンプレート最少幅
+検索NoEditパネル
+検索クリア
+検索CSV関連多言語
+
+
+
+
+
+*****  SearchConditionView.xaml  *****
+バージョン 38
+ユーザー: Ryu          日付: 11/10/08   時刻: 18:56
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: BatchName　2000文字改行
+集計・Batch　Numeric例外
+集計・検索文字切替
+集計残りの多言語化
+集計テンプレート最少幅
+検索NoEditパネル
+検索クリア
+検索CSV関連多言語
+
+
+
+
+
+*****  SearchConditionViewModel.cs  *****
+バージョン 39
+ユーザー: Ryu          日付: 11/10/08   時刻: 18:56
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: BatchName　2000文字改行
+集計・Batch　Numeric例外
+集計・検索文字切替
+集計残りの多言語化
+集計テンプレート最少幅
+検索NoEditパネル
+検索クリア
+検索CSV関連多言語
+
+
+
+
+
+*****  StrRes.Designer.cs  *****
+バージョン 21
+ユーザー: Ryu          日付: 11/10/08   時刻: 18:56
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: BatchName　2000文字改行
+集計・Batch　Numeric例外
+集計・検索文字切替
+集計残りの多言語化
+集計テンプレート最少幅
+検索NoEditパネル
+検索クリア
+検索CSV関連多言語
+
+
+
+
+
+*****  StrRes.ja-JP.resx  *****
+バージョン 18
+ユーザー: Ryu          日付: 11/10/08   時刻: 18:56
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: BatchName　2000文字改行
+集計・Batch　Numeric例外
+集計・検索文字切替
+集計残りの多言語化
+集計テンプレート最少幅
+検索NoEditパネル
+検索クリア
+検索CSV関連多言語
+
+
+
+
+
+*****  StrRes.resx  *****
+バージョン 21
+ユーザー: Ryu          日付: 11/10/08   時刻: 18:56
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: BatchName　2000文字改行
+集計・Batch　Numeric例外
+集計・検索文字切替
+集計残りの多言語化
+集計テンプレート最少幅
+検索NoEditパネル
+検索クリア
+検索CSV関連多言語
+
+
+
+
+
+*****  SearchConditionView.xaml  *****
+バージョン 37
+ユーザー: Ryu          日付: 11/10/08   時刻: 18:03
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 検索Numeric例外処理
+検索Clear確認。
+ListBox全部選択バグ修正
+
+*****  SearchConditionView.xaml.cs  *****
+バージョン 8
+ユーザー: Ryu          日付: 11/10/08   時刻: 18:03
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 検索Numeric例外処理
+検索Clear確認。
+ListBox全部選択バグ修正
+
+*****  SearchConditionViewModel.cs  *****
+バージョン 38
+ユーザー: Ryu          日付: 11/10/08   時刻: 18:03
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 検索Numeric例外処理
+検索Clear確認。
+ListBox全部選択バグ修正
+
+*****  SearchResultViewModel.cs  *****
+バージョン 23
+ユーザー: Ryu          日付: 11/10/08   時刻: 18:03
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 検索Numeric例外処理
+検索Clear確認。
+ListBox全部選択バグ修正
+
+*****  StrRes.Designer.cs  *****
+バージョン 20
+ユーザー: Ryu          日付: 11/10/08   時刻: 18:03
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 検索Numeric例外処理
+検索Clear確認。
+ListBox全部選択バグ修正
+
+*****  StrRes.resx  *****
+バージョン 20
+ユーザー: Ryu          日付: 11/10/08   時刻: 18:03
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 検索Numeric例外処理
+検索Clear確認。
+ListBox全部選択バグ修正
+
+*****  TemplateView.xaml  *****
+バージョン 3
+ユーザー: Ryu          日付: 11/10/08   時刻: 18:03
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 検索Numeric例外処理
+検索Clear確認。
+ListBox全部選択バグ修正
+
+*****  StrRes.ja-JP.resx  *****
+バージョン 17
+ユーザー: Ryu          日付: 11/10/08   時刻: 15:07
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: １．キーワード、Black/Whiteリスト入力の最大幅、自動改行等設定。
+２．キーワード、Black/WhiteをJSONから分割。700以上の日本語はDeserializeできない
+。
+３．検索中の進捗バーを作成。
+
+*****  StrRes.resx  *****
+バージョン 19
+ユーザー: Ryu          日付: 11/10/08   時刻: 15:07
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: １．キーワード、Black/Whiteリスト入力の最大幅、自動改行等設定。
+２．キーワード、Black/WhiteをJSONから分割。700以上の日本語はDeserializeできない
+。
+３．検索中の進捗バーを作成。
+
+*****  BeginSearchEvent2.cs  *****
+バージョン 2
+ユーザー: Ryu          日付: 11/10/08   時刻: 15:07
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: １．キーワード、Black/Whiteリスト入力の最大幅、自動改行等設定。
+２．キーワード、Black/WhiteをJSONから分割。700以上の日本語はDeserializeできない
+。
+３．検索中の進捗バーを作成。
+
+*****  SearchConditionView.xaml  *****
+バージョン 36
+ユーザー: Ryu          日付: 11/10/08   時刻: 15:07
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: １．キーワード、Black/Whiteリスト入力の最大幅、自動改行等設定。
+２．キーワード、Black/WhiteをJSONから分割。700以上の日本語はDeserializeできない
+。
+３．検索中の進捗バーを作成。
+
+*****  SearchConditionViewModel.cs  *****
+バージョン 37
+ユーザー: Ryu          日付: 11/10/08   時刻: 15:07
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: １．キーワード、Black/Whiteリスト入力の最大幅、自動改行等設定。
+２．キーワード、Black/WhiteをJSONから分割。700以上の日本語はDeserializeできない
+。
+３．検索中の進捗バーを作成。
+
+*****  SearchResultViewModel.cs  *****
+バージョン 22
+ユーザー: Ryu          日付: 11/10/08   時刻: 15:07
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: １．キーワード、Black/Whiteリスト入力の最大幅、自動改行等設定。
+２．キーワード、Black/WhiteをJSONから分割。700以上の日本語はDeserializeできない
+。
+３．検索中の進捗バーを作成。
+
+*****  StrRes.Designer.cs  *****
+バージョン 19
+ユーザー: Ryu          日付: 11/10/08   時刻: 15:07
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: １．キーワード、Black/Whiteリスト入力の最大幅、自動改行等設定。
+２．キーワード、Black/WhiteをJSONから分割。700以上の日本語はDeserializeできない
+。
+３．検索中の進捗バーを作成。
+
+*****  SearchResultViewModel.cs  *****
+バージョン 21
+ユーザー: Ryu          日付: 11/10/07   時刻: 20:07
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: Init状態を追加。
+
+*****  StrRes.Designer.cs  *****
+バージョン 18
+ユーザー: Ryu          日付: 11/10/07   時刻: 20:07
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: Init状態を追加。
+
+*****  StrRes.ja-JP.resx  *****
+バージョン 16
+ユーザー: Ryu          日付: 11/10/07   時刻: 20:07
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: Init状態を追加。
+
+*****  StrRes.resx  *****
+バージョン 18
+ユーザー: Ryu          日付: 11/10/07   時刻: 20:07
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: Init状態を追加。
+
+*****  SearchConditionView.xaml  *****
+バージョン 35
+ユーザー: Ryu          日付: 11/10/07   時刻: 11:31
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 検索ログ種別まわりの日本語化
+PostData進捗表示できないバグ修正。
+NoDataPanel、ResultMessagePanel色変更
+
+*****  SearchConditionViewModel.cs  *****
+バージョン 36
+ユーザー: Ryu          日付: 11/10/07   時刻: 11:31
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 検索ログ種別まわりの日本語化
+PostData進捗表示できないバグ修正。
+NoDataPanel、ResultMessagePanel色変更
+
+*****  SearchResultViewModel.cs  *****
+バージョン 20
+ユーザー: Ryu          日付: 11/10/07   時刻: 11:31
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 検索ログ種別まわりの日本語化
+PostData進捗表示できないバグ修正。
+NoDataPanel、ResultMessagePanel色変更
+
+*****  StrRes.Designer.cs  *****
+バージョン 17
+ユーザー: Ryu          日付: 11/10/07   時刻: 11:31
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 検索ログ種別まわりの日本語化
+PostData進捗表示できないバグ修正。
+NoDataPanel、ResultMessagePanel色変更
+
+*****  StrRes.ja-JP.resx  *****
+バージョン 15
+ユーザー: Ryu          日付: 11/10/07   時刻: 11:31
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 検索ログ種別まわりの日本語化
+PostData進捗表示できないバグ修正。
+NoDataPanel、ResultMessagePanel色変更
+
+*****  StrRes.resx  *****
+バージョン 17
+ユーザー: Ryu          日付: 11/10/07   時刻: 11:31
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 検索ログ種別まわりの日本語化
+PostData進捗表示できないバグ修正。
+NoDataPanel、ResultMessagePanel色変更
+
+*****  SearchResultViewModel.cs  *****
+バージョン 19
+ユーザー: Ryu          日付: 11/10/07   時刻:  8:58
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 結果ダウンロードメッセージ
+
+*****  StrRes.Designer.cs  *****
+バージョン 16
+ユーザー: Ryu          日付: 11/10/07   時刻:  8:58
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 結果ダウンロードメッセージ
+
+*****  StrRes.ja-JP.resx  *****
+バージョン 14
+ユーザー: Ryu          日付: 11/10/07   時刻:  8:58
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 結果ダウンロードメッセージ
+
+*****  StrRes.resx  *****
+バージョン 16
+ユーザー: Ryu          日付: 11/10/07   時刻:  8:58
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 結果ダウンロードメッセージ
+
+*****  StrRes.Designer.cs  *****
+バージョン 15
+ユーザー: Ryu          日付: 11/10/07   時刻:  8:37
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: ConditionFileCopierバグ修正
+条件ファイル取得できないエラーメッセージを表示
+
+*****  StrRes.ja-JP.resx  *****
+バージョン 13
+ユーザー: Ryu          日付: 11/10/07   時刻:  8:37
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: ConditionFileCopierバグ修正
+条件ファイル取得できないエラーメッセージを表示
+
+*****  StrRes.resx  *****
+バージョン 15
+ユーザー: Ryu          日付: 11/10/07   時刻:  8:37
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: ConditionFileCopierバグ修正
+条件ファイル取得できないエラーメッセージを表示
+
+*****  SearchResultViewModel.cs  *****
+バージョン 18
+ユーザー: Ryu          日付: 11/10/07   時刻:  8:37
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: ConditionFileCopierバグ修正
+条件ファイル取得できないエラーメッセージを表示
+
+*****  StrRes.resx  *****
+バージョン 14
+ユーザー: Ryu          日付: 11/10/07   時刻:  8:15
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: １．例外等場合、情報をResultPanelで表示。
+２．Search・Totalの条件ファイルコピー部分を統一。
+３．失敗した場合は、結果ファイル一覧に登録しないようにOutputManagerを修正
+
+
+*****  SearchResultView.xaml  *****
+バージョン 14
+ユーザー: Ryu          日付: 11/10/07   時刻:  8:15
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: １．例外等場合、情報をResultPanelで表示。
+２．Search・Totalの条件ファイルコピー部分を統一。
+３．失敗した場合は、結果ファイル一覧に登録しないようにOutputManagerを修正
+
+
+*****  SearchResultViewModel.cs  *****
+バージョン 17
+ユーザー: Ryu          日付: 11/10/07   時刻:  8:15
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: １．例外等場合、情報をResultPanelで表示。
+２．Search・Totalの条件ファイルコピー部分を統一。
+３．失敗した場合は、結果ファイル一覧に登録しないようにOutputManagerを修正
+
+
+*****  StrRes.Designer.cs  *****
+バージョン 14
+ユーザー: Ryu          日付: 11/10/07   時刻:  8:15
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: １．例外等場合、情報をResultPanelで表示。
+２．Search・Totalの条件ファイルコピー部分を統一。
+３．失敗した場合は、結果ファイル一覧に登録しないようにOutputManagerを修正
+
+
+*****  StrRes.ja-JP.resx  *****
+バージョン 12
+ユーザー: Ryu          日付: 11/10/07   時刻:  8:15
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: １．例外等場合、情報をResultPanelで表示。
+２．Search・Totalの条件ファイルコピー部分を統一。
+３．失敗した場合は、結果ファイル一覧に登録しないようにOutputManagerを修正
+
+
+*****  SearchConditionView.xaml  *****
+バージョン 34
+ユーザー: 66160        日付: 11/10/06   時刻: 15:35
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: コンマで区切る
+
+*****  LogSearch.Parts.csproj  *****
+バージョン 22
+ユーザー: Ryu          日付: 11/10/06   時刻: 15:11
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 検索エラー処理。無限タイムアウト。
+テンプレートエラー処理。無限タイムアウト。
+
+*****  SearchConditionViewModel.cs  *****
+バージョン 35
+ユーザー: Ryu          日付: 11/10/06   時刻: 15:11
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 検索エラー処理。無限タイムアウト。
+テンプレートエラー処理。無限タイムアウト。
+
+*****  SearchResultView.xaml  *****
+バージョン 13
+ユーザー: Ryu          日付: 11/10/06   時刻: 15:11
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 検索エラー処理。無限タイムアウト。
+テンプレートエラー処理。無限タイムアウト。
+
+*****  SearchResultView.xaml.cs  *****
+バージョン 7
+ユーザー: Ryu          日付: 11/10/06   時刻: 15:11
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 検索エラー処理。無限タイムアウト。
+テンプレートエラー処理。無限タイムアウト。
+
+*****  SearchResultViewModel.cs  *****
+バージョン 16
+ユーザー: Ryu          日付: 11/10/06   時刻: 15:11
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 検索エラー処理。無限タイムアウト。
+テンプレートエラー処理。無限タイムアウト。
+
+*****  StrRes.Designer.cs  *****
+バージョン 13
+ユーザー: Ryu          日付: 11/10/06   時刻: 15:11
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 検索エラー処理。無限タイムアウト。
+テンプレートエラー処理。無限タイムアウト。
+
+*****  StrRes.ja-JP.resx  *****
+バージョン 11
+ユーザー: Ryu          日付: 11/10/06   時刻: 15:11
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 検索エラー処理。無限タイムアウト。
+テンプレートエラー処理。無限タイムアウト。
+
+*****  StrRes.resx  *****
+バージョン 13
+ユーザー: Ryu          日付: 11/10/06   時刻: 15:11
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 検索エラー処理。無限タイムアウト。
+テンプレートエラー処理。無限タイムアウト。
+
+*****  TemplateView.xaml  *****
+バージョン 2
+ユーザー: Ryu          日付: 11/10/06   時刻: 15:11
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 検索エラー処理。無限タイムアウト。
+テンプレートエラー処理。無限タイムアウト。
+
+*****  TemplateViewModel.cs  *****
+バージョン 4
+ユーザー: Ryu          日付: 11/10/06   時刻: 15:11
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 検索エラー処理。無限タイムアウト。
+テンプレートエラー処理。無限タイムアウト。
+
+*****  SearchConditionView.xaml  *****
+バージョン 33
+ユーザー: 66160        日付: 11/10/06   時刻: 12:54
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: クリアボタン大きさ
+
+*****  SearchConditionView.xaml  *****
+バージョン 32
+ユーザー: 66160        日付: 11/10/06   時刻: 10:57
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 
+検索期間　　日付　　　　　開始日と終了日がない
+上の文章	　　　　「保存ボタンをクリックして表示・非表」←非表示	
+検索対象	　　　　　クリアボタン小さい	他のと統一
+記録時間帯	　　　　　クリアボタン他と位置が違う
+
+*****  SearchResultView.xaml.cs  *****
+バージョン 6
+ユーザー: Ryu          日付: 11/10/05   時刻: 19:58
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 検索Clientエラー、タイムアウト作成中
+
+*****  SearchResultViewModel.cs  *****
+バージョン 15
+ユーザー: Ryu          日付: 11/10/05   時刻: 19:58
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 検索Clientエラー、タイムアウト作成中
+
+*****  LogSearch.Parts.csproj  *****
+バージョン 21
+ユーザー: Ryu          日付: 11/10/05   時刻: 19:58
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 検索Clientエラー、タイムアウト作成中
+
+*****  SearchResultView.xaml  *****
+バージョン 12
+ユーザー: Ryu          日付: 11/10/05   時刻: 19:58
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 検索Clientエラー、タイムアウト作成中
+
+*****  SearchResultViewModel.cs  *****
+バージョン 14
+ユーザー: Ryu          日付: 11/10/05   時刻: 17:59
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 検索の進捗情報を完了
+
+*****  StrRes.Designer.cs  *****
+バージョン 12
+ユーザー: Ryu          日付: 11/10/05   時刻: 17:59
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 検索の進捗情報を完了
+
+*****  StrRes.ja-JP.resx  *****
+バージョン 10
+ユーザー: Ryu          日付: 11/10/05   時刻: 17:59
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 検索の進捗情報を完了
+
+*****  StrRes.resx  *****
+バージョン 12
+ユーザー: Ryu          日付: 11/10/05   時刻: 17:59
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 検索の進捗情報を完了
+
+*****  StrRes.Designer.cs  *****
+バージョン 11
+ユーザー: 66160        日付: 11/10/05   時刻: 17:20
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 
+
+*****  StrRes.ja-JP.resx  *****
+バージョン 9
+ユーザー: 66160        日付: 11/10/05   時刻: 17:20
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 
+
+*****  StrRes.resx  *****
+バージョン 11
+ユーザー: 66160        日付: 11/10/05   時刻: 17:20
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 
+
+*****  LogSearch.Parts.csproj  *****
+バージョン 20
+ユーザー: Ryu          日付: 11/10/05   時刻: 15:18
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 
+１．検索開始イベントをBeginSearchEventに改名。TODO:BeginSearchEvent.csがVSSの未
+削除と衝突するので2に命名。
+２．結果ファイルURL計算ロジックを独立。
+
+*****  SearchConditionViewModel.cs  *****
+バージョン 34
+ユーザー: Ryu          日付: 11/10/05   時刻: 15:18
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 
+１．検索開始イベントをBeginSearchEventに改名。TODO:BeginSearchEvent.csがVSSの未
+削除と衝突するので2に命名。
+２．結果ファイルURL計算ロジックを独立。
+
+*****  SearchResultViewModel.cs  *****
+バージョン 13
+ユーザー: Ryu          日付: 11/10/05   時刻: 15:18
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 
+１．検索開始イベントをBeginSearchEventに改名。TODO:BeginSearchEvent.csがVSSの未
+削除と衝突するので2に命名。
+２．結果ファイルURL計算ロジックを独立。
+
+*****  TemplateViewModel.cs  *****
+バージョン 3
+ユーザー: Ryu          日付: 11/10/05   時刻: 11:35
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 
+１．AdminName取得機能を追加。Adminが変わると、Template一覧と検索結果が自動的に
+クリアする。
+２．検索ZIPダウンロード機能を追加。
+３．StartupModuleがServiceなしで起動できるように。
+
+*****  SearchConditionViewModel.cs  *****
+バージョン 33
+ユーザー: Ryu          日付: 11/10/05   時刻: 11:35
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 
+１．AdminName取得機能を追加。Adminが変わると、Template一覧と検索結果が自動的に
+クリアする。
+２．検索ZIPダウンロード機能を追加。
+３．StartupModuleがServiceなしで起動できるように。
+
+*****  SearchResultViewModel.cs  *****
+バージョン 12
+ユーザー: Ryu          日付: 11/10/05   時刻: 11:35
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 
+１．AdminName取得機能を追加。Adminが変わると、Template一覧と検索結果が自動的に
+クリアする。
+２．検索ZIPダウンロード機能を追加。
+３．StartupModuleがServiceなしで起動できるように。
+
+*****  StrRes.Designer.cs  *****
+バージョン 10
+ユーザー: Ryu          日付: 11/10/05   時刻:  9:54
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: １．PostData出力選択のUIを追加
+２．検索結果ZIPダウンロード機能追加
+
+*****  StrRes.ja-JP.resx  *****
+バージョン 8
+ユーザー: Ryu          日付: 11/10/05   時刻:  9:54
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: １．PostData出力選択のUIを追加
+２．検索結果ZIPダウンロード機能追加
+
+*****  StrRes.resx  *****
+バージョン 10
+ユーザー: Ryu          日付: 11/10/05   時刻:  9:54
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: １．PostData出力選択のUIを追加
+２．検索結果ZIPダウンロード機能追加
+
+*****  ResultModel.cs  *****
+バージョン 4
+ユーザー: Ryu          日付: 11/10/05   時刻:  9:54
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: １．PostData出力選択のUIを追加
+２．検索結果ZIPダウンロード機能追加
+
+*****  SearchConditionView.xaml  *****
+バージョン 31
+ユーザー: Ryu          日付: 11/10/05   時刻:  9:54
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: １．PostData出力選択のUIを追加
+２．検索結果ZIPダウンロード機能追加
+
+*****  SearchConditionViewModel.cs  *****
+バージョン 32
+ユーザー: Ryu          日付: 11/10/05   時刻:  9:54
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: １．PostData出力選択のUIを追加
+２．検索結果ZIPダウンロード機能追加
+
+*****  SearchResultView.xaml  *****
+バージョン 11
+ユーザー: Ryu          日付: 11/10/05   時刻:  9:54
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: １．PostData出力選択のUIを追加
+２．検索結果ZIPダウンロード機能追加
+
+*****  SearchResultViewModel.cs  *****
+バージョン 11
+ユーザー: Ryu          日付: 11/10/05   時刻:  9:54
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: １．PostData出力選択のUIを追加
+２．検索結果ZIPダウンロード機能追加
+
+*****  LogSearch.Parts.csproj  *****
+バージョン 19
+ユーザー: Ryu          日付: 11/10/04   時刻: 19:58
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: BatchSearchシリアルバグ修正
+NoDataパネル追加中。
+
+*****  SearchResultView.xaml  *****
+バージョン 10
+ユーザー: Ryu          日付: 11/10/04   時刻: 19:58
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: BatchSearchシリアルバグ修正
+NoDataパネル追加中。
+
+*****  SearchResultViewModel.cs  *****
+バージョン 10
+ユーザー: Ryu          日付: 11/10/04   時刻: 19:58
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: BatchSearchシリアルバグ修正
+NoDataパネル追加中。
+
+*****  LogSearch.Parts.csproj  *****
+バージョン 18
+ユーザー: Ryu          日付: 11/09/29   時刻: 13:50
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: CSV変換処理抽出
+
+*****  SearchConditionViewModel.cs  *****
+バージョン 31
+ユーザー: Ryu          日付: 11/09/29   時刻: 13:50
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: CSV変換処理抽出
+
+*****  SearchResultViewModel.cs  *****
+バージョン 9
+ユーザー: Ryu          日付: 11/09/29   時刻: 13:50
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: CSV変換処理抽出
+
+*****  LogSearch.Parts.csproj  *****
+バージョン 17
+ユーザー: Ryu          日付: 11/09/27   時刻: 18:39
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 各部分を合体する。メニュー追加。
+
+*****  LogSearch.Parts.csproj  *****
+バージョン 16
+ユーザー: Ryu          日付: 11/09/27   時刻: 17:11
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 編集禁止画面、テンプレート画面を独立し、バッチ一覧周りを完成。
+
+*****  SearchConditionView.xaml  *****
+バージョン 30
+ユーザー: Ryu          日付: 11/09/27   時刻: 17:11
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 編集禁止画面、テンプレート画面を独立し、バッチ一覧周りを完成。
+
+*****  SearchConditionViewModel.cs  *****
+バージョン 30
+ユーザー: Ryu          日付: 11/09/27   時刻: 17:11
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 編集禁止画面、テンプレート画面を独立し、バッチ一覧周りを完成。
+
+*****  TemplateViewModel.cs  *****
+バージョン 2
+ユーザー: Ryu          日付: 11/09/27   時刻: 17:11
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 編集禁止画面、テンプレート画面を独立し、バッチ一覧周りを完成。
+
+*****  SearchConditionView.xaml  *****
+バージョン 29
+ユーザー: Ryu          日付: 11/09/27   時刻: 11:31
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 入力CSV、イベントツリーの更新
+
+*****  SearchConditionViewModel.cs  *****
+バージョン 29
+ユーザー: Ryu          日付: 11/09/27   時刻: 11:31
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 入力CSV、イベントツリーの更新
+
+*****  SearchConditionViewModel.cs  *****
+バージョン 28
+ユーザー: Ryu          日付: 11/09/26   時刻: 20:02
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: Search とバッチ連携中
+
+*****  SearchConditionView.xaml  *****
+バージョン 28
+ユーザー: Ryu          日付: 11/09/26   時刻: 19:46
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: SearchModule　OnDemand化
+
+*****  SearchConditionViewModel.cs  *****
+バージョン 27
+ユーザー: Ryu          日付: 11/09/26   時刻: 19:46
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: SearchModule　OnDemand化
+
+*****  SearchModule.cs  *****
+バージョン 6
+ユーザー: Ryu          日付: 11/09/26   時刻: 19:46
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: SearchModule　OnDemand化
+
+*****  LogSearch.Parts.csproj  *****
+バージョン 15
+ユーザー: Ryu          日付: 11/09/26   時刻: 19:46
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: SearchModule　OnDemand化
+
+*****  LogSearch.Parts.csproj  *****
+バージョン 14
+ユーザー: Ryu          日付: 11/09/26   時刻: 18:48
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: Polling統一
+
+*****  SearchConditionViewModel.cs  *****
+バージョン 26
+ユーザー: Ryu          日付: 11/09/26   時刻: 18:48
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: Polling統一
+
+*****  SearchResultViewModel.cs  *****
+バージョン 8
+ユーザー: Ryu          日付: 11/09/26   時刻: 18:48
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: Polling統一
+
+*****  SearchResultViewModel.cs  *****
+バージョン 7
+ユーザー: Ryu          日付: 11/09/26   時刻: 16:27
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: Search完了後の全体チェックイン
+
+*****  SearchController.cs  *****
+バージョン 6
+ユーザー: Ryu          日付: 11/09/26   時刻: 15:44
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 検索OnlineはWinServiceとの連携、PostData取得まで完了。
+
+*****  SearchResultView.xaml  *****
+バージョン 9
+ユーザー: Ryu          日付: 11/09/26   時刻: 15:44
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 検索OnlineはWinServiceとの連携、PostData取得まで完了。
+
+*****  SearchResultViewModel.cs  *****
+バージョン 6
+ユーザー: Ryu          日付: 11/09/26   時刻: 15:44
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 検索OnlineはWinServiceとの連携、PostData取得まで完了。
+
+*****  LogSearch.Parts.csproj  *****
+バージョン 13
+ユーザー: Ryu          日付: 11/09/26   時刻: 15:44
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 検索OnlineはWinServiceとの連携、PostData取得まで完了。
+
+*****  SearchConditionViewModel.cs  *****
+バージョン 25
+ユーザー: Ryu          日付: 11/09/26   時刻: 15:44
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 検索OnlineはWinServiceとの連携、PostData取得まで完了。
+
+*****  SearchModule.cs  *****
+バージョン 5
+ユーザー: Ryu          日付: 11/09/26   時刻: 15:44
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 検索OnlineはWinServiceとの連携、PostData取得まで完了。
+
+*****  SearchConditionViewModel.cs  *****
+バージョン 24
+ユーザー: Ryu          日付: 11/09/24   時刻: 17:44
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: Search ConditionをTotalと同じように更新
+
+*****  SearchResultView.xaml  *****
+バージョン 8
+ユーザー: Ryu          日付: 11/09/24   時刻: 17:44
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: Search ConditionをTotalと同じように更新
+
+*****  StrRes.Designer.cs  *****
+バージョン 9
+ユーザー: Ryu          日付: 11/09/24   時刻: 17:44
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: Search ConditionをTotalと同じように更新
+
+*****  StrRes.ja-JP.resx  *****
+バージョン 7
+ユーザー: Ryu          日付: 11/09/24   時刻: 17:44
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: Search ConditionをTotalと同じように更新
+
+*****  StrRes.resx  *****
+バージョン 9
+ユーザー: Ryu          日付: 11/09/24   時刻: 17:44
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: Search ConditionをTotalと同じように更新
+
+*****  LogSearch.Parts.csproj  *****
+バージョン 12
+ユーザー: Ryu          日付: 11/09/24   時刻: 17:44
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: Search ConditionをTotalと同じように更新
+
+*****  SearchConditionView.xaml  *****
+バージョン 27
+ユーザー: Ryu          日付: 11/09/24   時刻: 17:44
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: Search ConditionをTotalと同じように更新
+
+*****  StrRes.Designer.cs  *****
+バージョン 8
+ユーザー: Ryu          日付: 11/09/23   時刻: 20:22
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: BatchList一覧をJSONで取得するように。
+
+*****  StrRes.ja-JP.resx  *****
+バージョン 6
+ユーザー: Ryu          日付: 11/09/23   時刻: 20:22
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: BatchList一覧をJSONで取得するように。
+
+*****  StrRes.resx  *****
+バージョン 8
+ユーザー: Ryu          日付: 11/09/23   時刻: 20:22
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: BatchList一覧をJSONで取得するように。
+
+*****  LogSearch.Parts.csproj  *****
+バージョン 11
+ユーザー: Ryu          日付: 11/09/23   時刻: 20:22
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: BatchList一覧をJSONで取得するように。
+
+*****  SearchConditionView.xaml  *****
+バージョン 26
+ユーザー: Ryu          日付: 11/09/23   時刻: 20:22
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: BatchList一覧をJSONで取得するように。
+
+*****  SearchConditionViewModel.cs  *****
+バージョン 23
+ユーザー: Ryu          日付: 11/09/23   時刻: 20:22
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: BatchList一覧をJSONで取得するように。
+
+*****  SearchResultView.xaml  *****
+バージョン 7
+ユーザー: Ryu          日付: 11/09/23   時刻: 20:22
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: BatchList一覧をJSONで取得するように。
+
+*****  EnumBoolConverter.cs  *****
+バージョン 4
+ユーザー: Ryu          日付: 11/09/20   時刻: 20:29
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: BatchServiceにLogMgrII関連サービスを統合。
+
+*****  LogSearch.Parts.csproj  *****
+バージョン 10
+ユーザー: Ryu          日付: 11/09/20   時刻: 20:29
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: BatchServiceにLogMgrII関連サービスを統合。
+
+*****  SearchConditionViewModel.cs  *****
+バージョン 22
+ユーザー: Ryu          日付: 11/09/20   時刻: 20:29
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: BatchServiceにLogMgrII関連サービスを統合。
+
+*****  SearchConditionView.xaml  *****
+バージョン 25
+ユーザー: 66160        日付: 11/09/19   時刻: 14:22
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: ツリー番号　アカウント追加
+
+*****  StrRes.Designer.cs  *****
+バージョン 7
+ユーザー: 66160        日付: 11/09/19   時刻: 14:22
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: ツリー番号　アカウント追加
+
+*****  StrRes.ja-JP.resx  *****
+バージョン 5
+ユーザー: 66160        日付: 11/09/19   時刻: 14:22
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: ツリー番号　アカウント追加
+
+*****  StrRes.resx  *****
+バージョン 7
+ユーザー: 66160        日付: 11/09/19   時刻: 14:22
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: ツリー番号　アカウント追加
+
+*****  SearchConditionView.xaml  *****
+バージョン 24
+ユーザー: Ryu          日付: 11/09/19   時刻: 13:27
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 検索オプション相対位置に変更。
+
+*****  StrRes.Designer.cs  *****
+バージョン 6
+ユーザー: Ryu          日付: 11/09/19   時刻: 13:27
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 検索オプション相対位置に変更。
+
+*****  StrRes.ja-JP.resx  *****
+バージョン 4
+ユーザー: Ryu          日付: 11/09/19   時刻: 13:27
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 検索オプション相対位置に変更。
+
+*****  StrRes.resx  *****
+バージョン 6
+ユーザー: Ryu          日付: 11/09/19   時刻: 13:27
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 検索オプション相対位置に変更。
+
+*****  EventModel.cs  *****
+バージョン 2
+ユーザー: 66160        日付: 11/09/19   時刻: 13:04
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: ツリー数字
+
+
+*****  SearchConditionViewModel.cs  *****
+バージョン 21
+ユーザー: 66160        日付: 11/09/19   時刻: 13:04
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: ツリー数字
+
+
+*****  SearchConditionViewModel.cs  *****
+バージョン 20
+ユーザー: Ryu          日付: 11/09/19   時刻:  8:33
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: LogSearchJsonにKeyword3つ、EncodeName、IsOutputUserIdを追加。
+
+*****  SearchConditionView.xaml  *****
+バージョン 23
+ユーザー: Ryu          日付: 11/09/19   時刻:  8:33
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: LogSearchJsonにKeyword3つ、EncodeName、IsOutputUserIdを追加。
+
+*****  StrRes.Designer.cs  *****
+バージョン 5
+ユーザー: Ryu          日付: 11/09/17   時刻: 18:04
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: Template新しい画面完成。
+検索条件収集完成。
+
+*****  StrRes.resx  *****
+バージョン 5
+ユーザー: Ryu          日付: 11/09/17   時刻: 18:04
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: Template新しい画面完成。
+検索条件収集完成。
+
+*****  EnumBoolConverter.cs  *****
+バージョン 3
+ユーザー: Ryu          日付: 11/09/17   時刻: 18:04
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: Template新しい画面完成。
+検索条件収集完成。
+
+*****  EnumVisibConverter.cs  *****
+バージョン 2
+ユーザー: Ryu          日付: 11/09/17   時刻: 18:04
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: Template新しい画面完成。
+検索条件収集完成。
+
+*****  LogSearch.Parts.csproj  *****
+バージョン 9
+ユーザー: Ryu          日付: 11/09/17   時刻: 18:04
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: Template新しい画面完成。
+検索条件収集完成。
+
+*****  SearchConditionView.xaml  *****
+バージョン 22
+ユーザー: Ryu          日付: 11/09/17   時刻: 18:04
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: Template新しい画面完成。
+検索条件収集完成。
+
+*****  SearchConditionView.xaml.cs  *****
+バージョン 7
+ユーザー: Ryu          日付: 11/09/17   時刻: 18:04
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: Template新しい画面完成。
+検索条件収集完成。
+
+*****  SearchConditionViewModel.cs  *****
+バージョン 19
+ユーザー: Ryu          日付: 11/09/17   時刻: 18:04
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: Template新しい画面完成。
+検索条件収集完成。
+
+*****  SearchConditionView.xaml  *****
+バージョン 21
+ユーザー: 66160        日付: 11/09/16   時刻: 15:08
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: キーワード修正
+
+*****  SearchConditionView.xaml.cs  *****
+バージョン 6
+ユーザー: 66160        日付: 11/09/16   時刻: 15:08
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: キーワード修正
+
+*****  SearchConditionViewModel.cs  *****
+バージョン 18
+ユーザー: 66160        日付: 11/09/16   時刻: 15:08
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: キーワード修正
+
+*****  StrRes.Designer.cs  *****
+バージョン 4
+ユーザー: 66160        日付: 11/09/16   時刻: 15:08
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: キーワード修正
+
+*****  StrRes.ja-JP.resx  *****
+バージョン 3
+ユーザー: 66160        日付: 11/09/16   時刻: 15:08
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: キーワード修正
+
+*****  StrRes.resx  *****
+バージョン 4
+ユーザー: 66160        日付: 11/09/16   時刻: 15:08
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: キーワード修正
+
+*****  SearchResultView.xaml  *****
+バージョン 6
+ユーザー: Ryu          日付: 11/09/16   時刻: 11:45
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: UserLogScheduleデザイン用ウェブサイト追加
+
+*****  SearchConditionView.xaml  *****
+バージョン 20
+ユーザー: 66160        日付: 11/09/15   時刻: 17:28
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: Search 多言語化
+
+*****  StrRes.Designer.cs  *****
+バージョン 3
+ユーザー: 66160        日付: 11/09/15   時刻: 17:28
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: Search 多言語化
+
+*****  StrRes.ja-JP.resx  *****
+バージョン 2
+ユーザー: 66160        日付: 11/09/15   時刻: 17:28
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: Search 多言語化
+
+*****  StrRes.resx  *****
+バージョン 3
+ユーザー: 66160        日付: 11/09/15   時刻: 17:28
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: Search 多言語化
+
+*****  SearchResultView.xaml  *****
+バージョン 5
+ユーザー: Ryu          日付: 11/09/15   時刻: 13:48
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: PostDataのUI完了
+
+*****  SearchResultView.xaml.cs  *****
+バージョン 5
+ユーザー: Ryu          日付: 11/09/15   時刻: 13:48
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: PostDataのUI完了
+
+*****  SearchResultViewModel.cs  *****
+バージョン 5
+ユーザー: Ryu          日付: 11/09/15   時刻: 13:48
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: PostDataのUI完了
+
+*****  EnumBoolConverter.cs  *****
+バージョン 2
+ユーザー: Ryu          日付: 11/09/15   時刻: 13:48
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: PostDataのUI完了
+
+*****  SearchController.cs  *****
+バージョン 5
+ユーザー: Ryu          日付: 11/09/15   時刻: 13:48
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: PostDataのUI完了
+
+*****  LogSearch.Parts.csproj  *****
+バージョン 8
+ユーザー: Ryu          日付: 11/09/15   時刻: 13:02
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 検索リソース追加
+
+*****  ResultModel.cs  *****
+バージョン 3
+ユーザー: Ryu          日付: 11/09/15   時刻: 13:02
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 検索リソース追加
+
+*****  SearchResultView.xaml  *****
+バージョン 4
+ユーザー: Ryu          日付: 11/09/15   時刻: 13:02
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 検索リソース追加
+
+*****  SearchResultView.xaml.cs  *****
+バージョン 4
+ユーザー: Ryu          日付: 11/09/15   時刻: 13:02
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 検索リソース追加
+
+*****  SearchResultViewModel.cs  *****
+バージョン 4
+ユーザー: Ryu          日付: 11/09/15   時刻: 13:02
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 検索リソース追加
+
+*****  StrRes.Designer.cs  *****
+バージョン 2
+ユーザー: Ryu          日付: 11/09/15   時刻: 13:02
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 検索リソース追加
+
+*****  StrRes.resx  *****
+バージョン 2
+ユーザー: Ryu          日付: 11/09/15   時刻: 13:02
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 検索リソース追加
+
+*****  SearchConditionView.xaml  *****
+バージョン 19
+ユーザー: 66160        日付: 11/09/15   時刻: 11:44
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: リストボックス変更
+
+*****  SearchConditionView.xaml  *****
+バージョン 18
+ユーザー: 66160        日付: 11/09/15   時刻: 11:28
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 幅以外完成
+
+*****  SearchConditionView.xaml.cs  *****
+バージョン 5
+ユーザー: 66160        日付: 11/09/15   時刻: 11:28
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 幅以外完成
+
+*****  SearchConditionViewModel.cs  *****
+バージョン 17
+ユーザー: 66160        日付: 11/09/15   時刻: 11:28
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 幅以外完成
+
+*****  ResultModel.cs  *****
+バージョン 2
+ユーザー: Ryu          日付: 11/09/14   時刻: 20:00
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 検索結果表示、ページング完了。
+ポストのクリック、時間の表示はまだ。
+
+*****  SearchController.cs  *****
+バージョン 4
+ユーザー: Ryu          日付: 11/09/14   時刻: 20:00
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 検索結果表示、ページング完了。
+ポストのクリック、時間の表示はまだ。
+
+*****  SearchModule.cs  *****
+バージョン 4
+ユーザー: Ryu          日付: 11/09/14   時刻: 20:00
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 検索結果表示、ページング完了。
+ポストのクリック、時間の表示はまだ。
+
+*****  SearchResultView.xaml  *****
+バージョン 3
+ユーザー: Ryu          日付: 11/09/14   時刻: 20:00
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 検索結果表示、ページング完了。
+ポストのクリック、時間の表示はまだ。
+
+*****  SearchResultView.xaml.cs  *****
+バージョン 3
+ユーザー: Ryu          日付: 11/09/14   時刻: 20:00
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 検索結果表示、ページング完了。
+ポストのクリック、時間の表示はまだ。
+
+*****  SearchResultViewModel.cs  *****
+バージョン 3
+ユーザー: Ryu          日付: 11/09/14   時刻: 20:00
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 検索結果表示、ページング完了。
+ポストのクリック、時間の表示はまだ。
+
+*****  SearchConditionView.xaml  *****
+バージョン 17
+ユーザー: 66160        日付: 11/09/14   時刻: 11:16
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: スクロールバー
+
+*****  SearchConditionView.xaml.cs  *****
+バージョン 4
+ユーザー: 66160        日付: 11/09/14   時刻: 11:16
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: スクロールバー
+
+*****  SearchConditionView.xaml  *****
+バージョン 16
+ユーザー: 66160        日付: 11/09/12   時刻: 15:32
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 修正
+
+*****  SearchConditionViewModel.cs  *****
+バージョン 16
+ユーザー: 66160        日付: 11/09/12   時刻: 15:32
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 修正
+
+*****  SearchConditionView.xaml  *****
+バージョン 15
+ユーザー: 66160        日付: 11/09/09   時刻: 13:59
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: エラーメッセージ
+
+*****  SearchConditionViewModel.cs  *****
+バージョン 15
+ユーザー: 66160        日付: 11/09/09   時刻: 13:59
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: エラーメッセージ
+
+*****  SearchConditionView.xaml  *****
+バージョン 14
+ユーザー: 66160        日付: 11/09/09   時刻:  8:24
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: radiobutton グループ化　サイズ微調整
+
+*****  SearchConditionViewModel.cs  *****
+バージョン 14
+ユーザー: 66160        日付: 11/09/09   時刻:  8:24
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: radiobutton グループ化　サイズ微調整
+
+*****  SearchConditionView.xaml  *****
+バージョン 13
+ユーザー: 66160        日付: 11/09/08   時刻: 10:47
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: option treeClear
+
+*****  SearchConditionViewModel.cs  *****
+バージョン 13
+ユーザー: 66160        日付: 11/09/08   時刻: 10:47
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: option treeClear
+
+*****  LogSearch.Parts.csproj  *****
+バージョン 7
+ユーザー: Ryu          日付: 11/09/07   時刻: 20:09
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 検索結果画面を追加。
+
+*****  SearchController.cs  *****
+バージョン 3
+ユーザー: Ryu          日付: 11/09/07   時刻: 20:09
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 検索結果画面を追加。
+
+*****  SearchResultView.xaml  *****
+バージョン 2
+ユーザー: Ryu          日付: 11/09/07   時刻: 20:09
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 検索結果画面を追加。
+
+*****  SearchResultView.xaml.cs  *****
+バージョン 2
+ユーザー: Ryu          日付: 11/09/07   時刻: 20:09
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 検索結果画面を追加。
+
+*****  SearchResultViewModel.cs  *****
+バージョン 2
+ユーザー: Ryu          日付: 11/09/07   時刻: 20:09
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 検索結果画面を追加。
+
+*****  SearchConditionView.xaml  *****
+バージョン 12
+ユーザー: 66160        日付: 11/09/07   時刻: 18:45
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: クリア、コンボ、リスト
+
+*****  SearchConditionView.xaml.cs  *****
+バージョン 3
+ユーザー: 66160        日付: 11/09/07   時刻: 18:45
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: クリア、コンボ、リスト
+
+*****  SearchConditionViewModel.cs  *****
+バージョン 12
+ユーザー: 66160        日付: 11/09/07   時刻: 18:45
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: クリア、コンボ、リスト
+
+*****  SearchConditionView.xaml  *****
+バージョン 11
+ユーザー: Ryu          日付: 11/09/07   時刻: 15:15
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 時間帯リストボックスのCodeBehindにHourへの変換を行う。
+
+*****  SearchConditionView.xaml.cs  *****
+バージョン 2
+ユーザー: Ryu          日付: 11/09/07   時刻: 15:15
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 時間帯リストボックスのCodeBehindにHourへの変換を行う。
+
+*****  SearchConditionView.xaml  *****
+バージョン 10
+ユーザー: 66160        日付: 11/09/06   時刻: 15:12
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: コンボ　リスト　エラーあり
+
+*****  SearchConditionViewModel.cs  *****
+バージョン 11
+ユーザー: 66160        日付: 11/09/06   時刻: 15:12
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: コンボ　リスト　エラーあり
+
+*****  SearchConditionView.xaml  *****
+バージョン 9
+ユーザー: 66160        日付: 11/09/05   時刻: 15:56
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: クリア８割
+
+*****  SearchConditionViewModel.cs  *****
+バージョン 10
+ユーザー: 66160        日付: 11/09/05   時刻: 15:56
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: クリア８割
+
+*****  LogSearch.Parts.csproj  *****
+バージョン 6
+ユーザー: 66160        日付: 11/09/02   時刻: 18:21
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 条件クリア作成失敗。前回とあまり変わってない
+
+*****  SearchConditionViewModel.cs  *****
+バージョン 9
+ユーザー: 66160        日付: 11/09/02   時刻: 18:21
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 条件クリア作成失敗。前回とあまり変わってない
+
+*****  SearchConditionView.xaml  *****
+バージョン 8
+ユーザー: 66160        日付: 11/09/02   時刻: 16:27
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: ボタン系VM
+
+*****  SearchConditionViewModel.cs  *****
+バージョン 8
+ユーザー: 66160        日付: 11/09/02   時刻: 16:27
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: ボタン系VM
+
+*****  LogSearch.Parts.csproj  *****
+バージョン 5
+ユーザー: Ryu          日付: 11/09/02   時刻: 15:06
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: Controller改名
+
+*****  SearchController.cs  *****
+バージョン 2
+ユーザー: Ryu          日付: 11/09/02   時刻: 15:06
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: Controller改名
+
+*****  SearchModule.cs  *****
+バージョン 3
+ユーザー: Ryu          日付: 11/09/02   時刻: 15:06
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: Controller改名
+
+*****  LogSearch.Parts.csproj  *****
+バージョン 4
+ユーザー: Ryu          日付: 11/09/02   時刻: 15:06
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: デバッグ用の「検索開始」機能を追加。
+
+*****  SearchConditionView.xaml  *****
+バージョン 7
+ユーザー: Ryu          日付: 11/09/02   時刻: 15:06
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: デバッグ用の「検索開始」機能を追加。
+
+*****  SearchConditionViewModel.cs  *****
+バージョン 7
+ユーザー: Ryu          日付: 11/09/02   時刻: 15:06
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: デバッグ用の「検索開始」機能を追加。
+
+*****  SearchModule.cs  *****
+バージョン 2
+ユーザー: Ryu          日付: 11/09/02   時刻: 15:06
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: デバッグ用の「検索開始」機能を追加。
+
+*****  SearchConditionView.xaml  *****
+バージョン 6
+ユーザー: 66160        日付: 11/09/02   時刻: 14:56
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: textboxのviewmodel
+
+*****  SearchConditionViewModel.cs  *****
+バージョン 6
+ユーザー: 66160        日付: 11/09/02   時刻: 14:56
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: textboxのviewmodel
+
+*****  SearchConditionView.xaml  *****
+バージョン 5
+ユーザー: 66160        日付: 11/09/01   時刻: 13:45
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 初期値１設定 binding
+
+*****  SearchConditionViewModel.cs  *****
+バージョン 5
+ユーザー: 66160        日付: 11/09/01   時刻: 13:45
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 初期値１設定 binding
+
+*****  SearchConditionView.xaml  *****
+バージョン 4
+ユーザー: 66160        日付: 11/09/01   時刻: 11:14
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: ツリー
+
+*****  SearchConditionViewModel.cs  *****
+バージョン 4
+ユーザー: 66160        日付: 11/09/01   時刻: 11:14
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: ツリー
+
+*****  SearchConditionView.xaml  *****
+バージョン 3
+ユーザー: 66160        日付: 11/09/01   時刻:  9:37
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: カレンダー機能追加
+
+*****  SearchConditionViewModel.cs  *****
+バージョン 3
+ユーザー: 66160        日付: 11/09/01   時刻:  9:37
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: カレンダー機能追加
+
+*****  LogSearch.Parts.csproj  *****
+バージョン 3
+ユーザー: Ryu          日付: 11/09/01   時刻:  8:23
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: LogTotalとLogTotal.Partsの基本連携部分を作成。
+
+*****  LogSearch.Parts.csproj  *****
+バージョン 2
+ユーザー: 66160        日付: 11/09/01   時刻:  8:00
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 
+
+*****  SearchConditionView.xaml  *****
+バージョン 2
+ユーザー: 66160        日付: 11/09/01   時刻:  8:00
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 
+
+*****  SearchConditionViewModel.cs  *****
+バージョン 2
+ユーザー: 66160        日付: 11/09/01   時刻:  8:00
+チェックイン $/CSS/WebConsole.root/WebConsole/WebConsole_Prism/LogSearch.Parts
+コメント: 
+

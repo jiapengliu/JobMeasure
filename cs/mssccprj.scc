@@ -3,3 +3,11 @@ SCC = This is a Source Code Control file
 [PCshutDown.sln]
 SCC_Aux_Path = "\\src\VSS\CSS"
 SCC_Project_Name = "$/css/PCshutDown/PCshutDown64/PCshutDown", IIMEAAAA
+
+[WebConsole.sln]
+SCC_Aux_Path = "\\src\VSS\CSS"
+SCC_Project_Name = "$/css/WebConsole.root/WebConsole/WebConsole_scaleout", NAQFAAAA
+
+[SMLLogCore.Design.sln]
+SCC_Aux_Path = "\\src\VSS\CSS"
+SCC_Project_Name = "$/css/WebConsole.root/WebConsole/WebConsole_scaleout", NAQFAAAA

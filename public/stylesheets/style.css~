@@ -2,9 +2,11 @@ body {
 	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
-a {
-  	color: #00B7FF;
-}
+a { color: #4183C4;}
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:active { text-decoration: none; }
+a:hover { text-decoration: underline; color: red;}
 
 .dbgborder {
 	border-style:solid;
