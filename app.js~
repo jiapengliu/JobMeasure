@@ -1,4 +1,4 @@
-
+﻿
 /**
  * Module dependencies.
  */
@@ -32,8 +32,12 @@ app.configure('production', function(){
 
 // Routes
 
+app.get('/', function(req, res) {
+	res.redirect('/list/css');
+}
+
 app.get('/cs/*', function(req, res) {
-	var file = req.params;
+	var file = req.params[0];
 	readCs(file, function(p, cs) {
 		if (cs != null) {
 			res.render('showcs', {title: file, cs: cs});
@@ -61,30 +65,45 @@ app.get('/comp/:file1/:file2', function(req, res) {
 
 app.get('/diff/:file1/:file2', function(req, res) {
 	var files = [req.params.file1, req.params.file2];
-	diffCs(files[0], files[1], function(code, result) {
-		if (code == 1) {
-			res.render('showdiff', {title: files.join(' vs. '), fullurl: '/cs/' + files[1], fulldisp: files[1], diff: result});
-		} else {
-			res.end("diff returns " + code + "\n" + result);
-		}
+	diffCs(files[0], files[1], function(result) {
+		res.render('showdiff', {title: files.join(' vs. '), fullurl: '/cs/' + files[1], fulldisp: files[1], diff: result});
 	});
 });
+
+app.get('/diff/*', function(req, res) {
+	var files = parseFiles(req.params[0]);
+	var file = files[0];
+	diff(file.filename, file.version, function(result) {
+		var title = file.filename + '(' + file.version + ' vs. ' + (file.version - 1) + ')';
+		var url = file.filename + '.' + file.version;
+		res.render('showdiff', {title: title, fullurl: '/diffcs/' + url, fulldisp: url, diff: result});
+	});
+});
+
+app.get('/diffcs/*', function(req, res) {
+	var file = req.params[0];
+	readFile(file, function(p, cs) {
+		if (cs != null) {
+			res.render('showcs', {title: file, cs: cs});
+		} else {
+			console.log("Cannot find " + p);
+			res.end("Cannot find " + file);
+		}
+	});
+});	
 
 app.get('/list', function(req, res) {
 	res.redirect('/list/css');
 });
 
 app.get('/list/*', function(req, res) {
-	ssdir(req.params, function(code, result) {
-		if (code == 0) {
-			res.render('list', {
-				title: 'list', 
-				columns: ["isfolder", "name"],
-				data: splitResult('/list/' + req.params, result)
-			});
-		} else {
-			res.end(code + '\r\n' + result);
-		}
+	ssdir(req.params, function(result) {
+		res.render('list', {
+			title: 'list',	
+			columns: ["isfolder", "name"],
+			data: splitResult('/list/' + req.params, result),
+			his: '/history/' + req.params
+		});
 	});
 });
 
@@ -93,84 +112,186 @@ app.get('/history', function(req, res) {
 });
 
 app.get('/history/*', function(req, res) {
-	sshis(req.params, function(code, result) {
-/*		if (code == 0) {
-			res.render('list', {
-				title: 'list', 
-				columns: ["isfolder", "name"],
-				data: splitResult('/list/' + req.params, result)
+	sshis(req.params, function(result) {
+		parseHistory(result, function(items) {
+			var his = combineHistory('/diff/' + req.params, items);
+
+			res.render('history', {
+				title: '履歴', 
+				//columns: ['ファイル名', 'バージョン', 'ユーザ', '日時', 'コメント'],
+				columns: ['filename', 'version', 'user', 'date', 'comment'],
+				data: items,
+				histories: his
 			});
-		} else {
-			res.end(code + '\r\n' + result);
-		}
-		*/
-		parseHistory(result, function(data) {
-			res.end(data);
 		});
 	});
 });
 
-app.listen(3000, function(){
+app.listen(3000, function() {
   console.log("Express server listening on port %d in %s mode", app.address().port, app.settings.env);
 });
 
 // lib
+
+function parseFiles(fileurl) {
+console.log(fileurl);
+	var files = [],
+		file,
+		parts = fileurl.split(':');
+
+	for(var i in parts) {
+		var part = parts[i];
+		if (i % 2 == 0)
+			file = { filename: part, version: 0 };
+		else {
+			var num = parseInt(part);
+			if (!isNaN(num))
+				file.version = num;
+
+			files.push(file);
+		}
+	}
+
+	return files;
+}
+
+function combineHistory(base, items) {
+	var dicDate = {},
+		dicTimeComment;
+
+	items.forEach(function(item) {
+		var date = item.date;
+		var dtkey = date.getFullYear() + '/' + (date.getMonth() + 1) + '/' + date.getDate();
+		if (dtkey in dicDate)
+			dicTimeComment = dicDate[dtkey];
+		else {
+			dicTimeComment = {};
+			dicDate[dtkey] = dicTimeComment;
+		}
+
+		var tuckey = date.getTime() + '|' + item.user + '|' +  item.comment;
+		if (tuckey in dicTimeComment)
+			dicTimeComment[tuckey].push(item);
+		else
+			dicTimeComment[tuckey] = [item];
+	});
+
+	var histories = [];
+	for(var date in dicDate) {
+		histories.push({ date: date, cms: getComments(base, dicDate[date]) });
+	}
+	return histories;
+}
+
+function getComments(base, dictuc) {
+	var cms = [];
+	for(var tuc in dictuc) {
+		var items = dictuc[tuc],
+			item = items[0];
+		cms.push({ comment: item.comment, user: item.user, date: item.date, 
+			fileurl: getFileUrl(base, items) });
+	}
+	return cms;
+}
+
+function getFileUrl(base, items) {
+	var url = base + '/';
+	for(var i in items) {
+		var it = items[i];
+		if (i > 0)
+			url += ':';
+		url += it.filename + ':' + it.version;
+	}
+	return url;
+}
+
 
 function parseHistory(content, callback) {
 	var lines = content.split('\r\n'),
 		items = [],
 		item,
 		isfile = false,
-		isver = false,
-		row;
+		isver = false;
 
 	for(var i in lines) {
 		var line = lines[i];
 
 		var version = getBetween(line, '*****************', '*****************');
 		if (version) {
-			item = { filename: null, version: parseVersion(version), user: null, date: null };
+/*
+			item = createHistoryItem();
+			item.version = parseVersion(version);
 			items.push(item);
+*/
 			isfile = false;
 			isver = true;
-			row = 0;
 			continue;
 		}
 
 		var filename = getBetween(line, '*****', '*****');
 		if (filename) {
-			item = { filename: filename, version: 0, user: null, date: null };
+			item = createHistoryItem();
+			item.filename = filename;
 			items.push(item);
 			isfile = true;
 			isver = false;
-			row = 0;
 			continue;
 		}
 
 		if (isfile) 
-			switch(++row) {
-				case 1:
-					item.version = 	parseVersion(line);
-					break;
-				case 2:
-					parseUserAndDate(item, line);
-					break;
-			}
-
+			parseFileBlock(item, line);
+/*
 		if (isver)
-			switch(++row) {
-				case 1:
-					parseUserAndDate(item, line);
-					break;
-				case 2:
-					item.filename = parseVersionFilename(line);
-					break;
-			}
+			parseVersionBlock(item, line);
+*/
+	}
+	callback(items);
+}
 
+function parseFileBlock(item, line) {
+	if (parseFileBlock.iscmt && line)
+		item.comment += line;
+
+	if (startWith(line, 'ユーザー:'))
+		parseUserAndDate(item, line);
+
+	if (startWith(line, 'コメント:')) {
+		item.comment = getAfterAndTrim(line, 'コメント:');
+		parseFileBlock.iscmt = true;
 	}
 
-	console.log(items);
-	callback(content);
+	if (startWith(line, 'バージョン')) {
+		var numstr = getAfterAndTrim(line, 'バージョン');
+		var num = parseInt(numstr);
+		if (!isNaN(num))
+			item.version = num;	
+	}
+}
+/*
+function parseVersionBlock(item, line) {
+	var row = 0;
+	switch(++row) {
+		case 1:
+			parseUserAndDate(item, line);
+			break;
+		case 2:
+			item.filename = parseVersionFilename(line);
+			break;
+	}
+}
+*/
+function getAfterAndTrim(str, keyword) {
+	var valstr = str.substring(keyword.length);
+	return jq.trim(valstr);
+}
+
+function startWith(str, keyword) {
+	var pos = str.indexOf(keyword); 
+	return pos == 0;
+}	
+
+function createHistoryItem() {
+	return { filename: null, version: 0, user: null, date: null, comment: null };
 }
 
 function parseVersionFilename(line) {
@@ -261,29 +382,49 @@ function splitResult(base, result) {
 }
 
 function readCs(file, callback) {
-	ssget(file, function(code, result) {
-		if (code == 0) {
-			var filename = path.basename(file);
-			var p = csp(filename);
-			fs.readFile(p, function(err, data) {
-				if (err) throw err;
-				callback(p, data);
+	ssget(file, function(result) {
+		var filename = path.basename(file);
+		var p = csp(filename);
+		fs.readFile(p, function(err, data) {
+			if (err) throw err;
+			callback(p, data);
+		});
+	});
+}
+
+function readFile(file, callback) {
+	var filename = path.basename(file);
+	var p = csp(filename);
+	fs.readFile(p, function(err, data) {
+		if (err) throw err;
+		callback(p, data);
+	});
+}
+
+function diff(file, version, callback) {
+	ssgetv(file, version, function(result) {
+		var filename = path.basename(file);
+		var p = csp(filename);
+		var pnew = p + '.' + version;
+		fs.rename(p, pnew, function() {
+			var oldver = version - 1;
+			var pold = p + '.' + oldver;
+			ssgetv(file, oldver, function(result) {
+				fs.rename(p, pold, function() {
+					diffCs(pold, pnew, callback);
+				});
 			});
-		}
-		else {
-			callback(null, null);
-		}
+		});
 	});
 }
 
 function diffCs(file1, file2, callback) {
-	exe(binp('localdiff.exe'), ['-u', csp(file1), csp(file2)], callback);
+	exe(binp('localdiff.exe'), ['-u', file1, file2], callback);
 }
 
 function ssdir(sub, callback) {
 	ss('Dir', sub, callback);
 }
-
 
 function ssget(sub, callback) {
 	ss('Get', sub, callback);
@@ -297,13 +438,19 @@ function sshis(sub, callback) {
 	ss('History', sub, callback);
 }
 
+function ssgetv(sub, version, callback) {
+	process.env.ssdir = '\\\\src\\VSS\\CSS';
+	process.env.ssuser = 'ryu';
+	process.env.sspwd = 'ryu';
+	exe(ssp('ss.exe'), ['Get', '-V' + version, '$/' + sub], callback);
+}
+
 function ss(cmd, sub, callback) {
 	process.env.ssdir = '\\\\src\\VSS\\CSS';
 	process.env.ssuser = 'ryu';
 	process.env.sspwd = 'ryu';
 	exe(ssp('ss.exe'), [cmd, '$/' + sub], callback);
 }
-
 
 function exe2(exefullpath, args, callback) {
 	console.log(csp());
@@ -333,7 +480,7 @@ function exe(exefullpath, args, callback) {
 
 	var forker = require('child_process');
 	forker.exec(cmd, { cwd: csp() }, function(err, outstr) {
-		callback(0, outstr);
+		callback(outstr);
 	});
 }
 

@@ -1,0 +1,28 @@
+ul
+    li abc
+        ul
+            li a
+            li b
+            li c
+
+ul
+    each his in histories
+        li #{his.date}
+            ul
+                each cm in his.cms
+                    li 
+                        a(href=cm.fileurl)
+                            #{cm.comment}-#{cm.user}-#{cm.date}
+
+.yui3-skin-sam
+    #simple
+script
+    YUI().use('datatable', function(Y) {
+        var simple = new Y.DataTable({
+            columns: !{JSON.stringify(columns)}, 
+            data   : !{JSON.stringify(data)},
+        });
+
+        simple.render("#simple");
+    });
+    
