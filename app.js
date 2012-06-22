@@ -458,24 +458,6 @@ function ss(cmd, sub, callback) {
 	exe(ssp('ss.exe'), [cmd, '$/' + sub], callback);
 }
 
-function exe2(exefullpath, args, callback) {
-	console.log(csp());
-	var util = require('util'),
-		spawn = require('child_process').spawn,
-		exe = spawn(exefullpath, args, {cwd: csp(), env: process.env}),
-		result = '';
-
-	exe.stdout.on('data', function(data) {
-		result += data.toString();
-	});
-	exe.stderr.on('data', function(data) {
-		result += data.toString();
-	});
-	exe.on('exit', function(code) {
-		callback(code, result);
-	});
-}
-
 function exe(exefullpath, args, callback) {
 	var cmd = '"' + binp('utf8wrapper.exe') + '"';
 	cmd += ' "' + exefullpath + '"';
