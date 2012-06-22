@@ -1,8 +1,9 @@
-h1 #{title}
 script(type='text/javascript')
     SyntaxHighlighter.all();
-a(href=fullurl)
-    #{fulldisp}
-script(type='syntaxhighlighter', class='brush: diff;')
-        #{diff}
+each diff in diffs
+    .grpheader.spacekiller #{diff.filename}
+        a.rightalign(href=diff.url) source
+    script(type='syntaxhighlighter', class='brush: diff; class-name: "diffblock"')
+        #{diff.diff}
+
 

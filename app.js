@@ -63,20 +63,10 @@ app.get('/comp/:file1/:file2', function(req, res) {
 	});
 });
 
-app.get('/diff/:file1/:file2', function(req, res) {
-	var files = [req.params.file1, req.params.file2];
-	diffCs(files[0], files[1], function(result) {
-		res.render('showdiff', {title: files.join(' vs. '), fullurl: '/cs/' + files[1], fulldisp: files[1], diff: result});
-	});
-});
-
 app.get('/diff/*', function(req, res) {
 	var files = parseFiles(req.params[0]);
-	var file = files[0];
-	diff(file.filename, file.version, function(result) {
-		var title = file.filename + '(' + file.version + ' vs. ' + (file.version - 1) + ')';
-		var url = file.filename + '.' + file.version;
-		res.render('showdiff', {title: title, fullurl: '/diffcs/' + url, fulldisp: url, diff: result});
+	diffFile(files, 0, [], function(diffs) {
+		res.render('showdiff', {title: 'diff', diffs: diffs});
 	});
 });
 
@@ -118,9 +108,6 @@ app.get('/history/*', function(req, res) {
 
 			res.render('history', {
 				title: '履歴', 
-				//columns: ['ファイル名', 'バージョン', 'ユーザ', '日時', 'コメント'],
-				columns: ['filename', 'version', 'user', 'date', 'comment'],
-				data: items,
 				histories: his
 			});
 		});
@@ -133,16 +120,35 @@ app.listen(3000, function() {
 
 // lib
 
+function diffFile(files, id, diffs, callback) {
+	var file = files[id];
+	diff(file.filename, file.version, function(result) {
+		diffs.push(createDiff(file, result));
+		if (id == files.length - 1)
+			callback(diffs);
+		else 
+			diffFile(files, ++id, diffs, callback);
+	});
+}
+
+function createDiff(file, result) {
+	var filename = path.basename(file.filename) + '(' + file.version + ' vs. ' + (file.version - 1) + ')';
+	var url = file.filename + '.' + file.version;
+	return { filename: filename, url: '/diffcs/' + url, diff: result };
+}
+
 function parseFiles(fileurl) {
 console.log(fileurl);
 	var files = [],
 		file,
-		parts = fileurl.split(':');
+		folder = path.dirname(fileurl),
+		filenames = path.basename(fileurl)
+		parts = filenames.split(':');
 
 	for(var i in parts) {
 		var part = parts[i];
 		if (i % 2 == 0)
-			file = { filename: part, version: 0 };
+			file = { filename: path.join(folder, part), version: 0 };
 		else {
 			var num = parseInt(part);
 			if (!isNaN(num))
@@ -188,7 +194,7 @@ function getComments(base, dictuc) {
 	for(var tuc in dictuc) {
 		var items = dictuc[tuc],
 			item = items[0];
-		cms.push({ comment: item.comment, user: item.user, date: item.date, 
+		cms.push({ comment: item.comment || 'なし', user: item.user, date: item.date, 
 			fileurl: getFileUrl(base, items) });
 	}
 	return cms;
